@@ -1,0 +1,5873 @@
+[
+  {
+    "key": "32bfdd9b-e126-40cb-8aea-f54fbfc4163a",
+    "rule": "python:S2068",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_01.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 10,
+    "hash": "c5a5ca971110f30cafea8e3dd0268e4d",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 11,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "\"SECRET_KEY\" detected here, review this potentially hard-coded credential.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "b4af5f07-6dcc-4f1f-b7b5-c74e8880cf4d",
+    "rule": "python:S6779",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_01.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 10,
+    "hash": "c5a5ca971110f30cafea8e3dd0268e4d",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 27,
+      "endOffset": 51
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_01.py",
+            "textRange": {
+              "startLine": 10,
+              "endLine": 10,
+              "startOffset": 0,
+              "endOffset": 24
+            },
+            "msg": "Assignment to sensitive property.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Don't disclose \"Flask\" secret keys.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "flask"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "0a39f3a2-7065-4d64-8930-28f87a3bdc3b",
+    "rule": "python:S6965",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_01.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 91,
+    "hash": "f98291e1a2d0a909b0b4e910ce29a5aa",
+    "textRange": {
+      "startLine": 91,
+      "endLine": 91,
+      "startOffset": 0,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify the HTTP methods this route should accept.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "flask"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "fa0a4e99-fde6-4774-bab3-8fdf5a3362a0",
+    "rule": "python:S6965",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_01.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 132,
+    "hash": "f3f12d5a6f01da4f7037a1882b31247d",
+    "textRange": {
+      "startLine": 132,
+      "endLine": 132,
+      "startOffset": 0,
+      "endOffset": 24
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify the HTTP methods this route should accept.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "flask"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "e8fad82e-f914-4ae1-89ea-3c1c171de6e8",
+    "rule": "python:S6965",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_01.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 144,
+    "hash": "fc6c376571a23c088dd4e254d59b72ab",
+    "textRange": {
+      "startLine": 144,
+      "endLine": 144,
+      "startOffset": 0,
+      "endOffset": 21
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify the HTTP methods this route should accept.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "flask"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "41f0160b-c2be-4f8e-a55b-bc9cd7229058",
+    "rule": "python:S6779",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_02.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 12,
+    "hash": "8b216ad36db998c443fde426291f578b",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 27,
+      "endOffset": 44
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_02.py",
+            "textRange": {
+              "startLine": 12,
+              "endLine": 12,
+              "startOffset": 0,
+              "endOffset": 24
+            },
+            "msg": "Assignment to sensitive property.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Don't disclose \"Flask\" secret keys.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "flask"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "9db8273d-05ed-474c-8c64-c94844798f06",
+    "rule": "python:S2068",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_02.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 12,
+    "hash": "8b216ad36db998c443fde426291f578b",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 11,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "\"SECRET_KEY\" detected here, review this potentially hard-coded credential.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "db843fe3-3150-4316-8605-c4bd2e5169a6",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_02.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 44,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 2,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "c5f09091-c0e8-42ae-b58b-3868fbfa53dd",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_02.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 80,
+    "hash": "ba27d57c008fb4a82c2d277bf658dfe1",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 80,
+      "startOffset": 9,
+      "endOffset": 35
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "5346b72d-5d6f-45fb-9e7b-43462294ed54",
+    "rule": "python:S2068",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_03.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 11,
+    "hash": "c5a5ca971110f30cafea8e3dd0268e4d",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 11,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "\"SECRET_KEY\" detected here, review this potentially hard-coded credential.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "981b7c86-48f7-4bb0-93ff-0946fe93eaf0",
+    "rule": "python:S6779",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_03.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 11,
+    "hash": "c5a5ca971110f30cafea8e3dd0268e4d",
+    "textRange": {
+      "startLine": 11,
+      "endLine": 11,
+      "startOffset": 27,
+      "endOffset": 51
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_03.py",
+            "textRange": {
+              "startLine": 11,
+              "endLine": 11,
+              "startOffset": 0,
+              "endOffset": 24
+            },
+            "msg": "Assignment to sensitive property.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Don't disclose \"Flask\" secret keys.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "flask"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "9ad6bbc3-2822-48eb-9ae3-05fda65a92f0",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_04.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 45,
+    "hash": "396113c47c93a9dcfbe21582d47d611c",
+    "textRange": {
+      "startLine": 45,
+      "endLine": 45,
+      "startOffset": 14,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "e4accc5c-87e6-4a5e-abbc-3861c1445e8b",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_04.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 55,
+    "hash": "e525a77b53a6749f6a3f55c37d853522",
+    "textRange": {
+      "startLine": 55,
+      "endLine": 55,
+      "startOffset": 50,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "4139f144-45c0-4225-9427-3c178b9065be",
+    "rule": "python:S6903",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_04.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 63,
+    "hash": "e525a77b53a6749f6a3f55c37d853522",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 50,
+      "endOffset": 76
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Don't use `datetime.datetime.utcnow` to create this datetime object.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "datetime",
+      "pitfall"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      },
+      {
+        "softwareQuality": "RELIABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "1e582196-1bc7-4b31-bf2a-bb7b989d58e9",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_05.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 40,
+    "hash": "2b2ae40d11fff8be89eb2cf9acd7490a",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 6,
+      "endOffset": 41
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "3d4fd8b9-6f77-40d3-9af1-28aae3f0dca1",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_05.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 92,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 92,
+      "endLine": 94,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "85c6dad6-c184-4709-afb6-d9e7d13f44fc",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_05.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 128,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 128,
+      "endLine": 130,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "7f28a828-d26f-4816-9d87-a385d4dab5ed",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_05.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 158,
+    "hash": "6ecb85f8ecd2144fa75249f174f1d4d8",
+    "textRange": {
+      "startLine": 158,
+      "endLine": 158,
+      "startOffset": 10,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async IIFE.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "e6c640da-18e2-4776-8e3c-a4899b4a0885",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_06.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 22,
+    "hash": "b95d92c73e979619da523a9373e89e4e",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 22,
+      "startOffset": 4,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "bb854cc0-59bf-4862-b5ea-4dc89f65a6b3",
+    "rule": "javascript:S6437",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_06.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 27,
+    "hash": "96d352ea92d61dc77466876e7533ad24",
+    "textRange": {
+      "startLine": 27,
+      "endLine": 27,
+      "startOffset": 16,
+      "endOffset": 26
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_06.js",
+            "textRange": {
+              "startLine": 8,
+              "endLine": 8,
+              "startOffset": 19,
+              "endOffset": 36
+            },
+            "msg": "Hardcoded value assigned here",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Revoke and change this password, as it is compromised.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "f9957513-a9dc-4e95-9ebd-77f093df9714",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_06.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 34,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 34,
+      "endLine": 36,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "7acdedb3-89ea-432e-b370-1e70b53052aa",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_06.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 56,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 58,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "e24d77f1-ed7c-4d9d-a49d-92c1a9b82389",
+    "rule": "javascript:S6437",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_06.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 74,
+    "hash": "ea0659b1cfdb414c7f63f98e9efcddb3",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 14,
+      "endOffset": 22
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_06.js",
+            "textRange": {
+              "startLine": 8,
+              "endLine": 8,
+              "startOffset": 19,
+              "endOffset": 36
+            },
+            "msg": "Hardcoded value assigned here",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Revoke and change this password, as it is compromised.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "73320d9c-8868-473b-a990-24aee6af5c39",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_06.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 80,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 80,
+      "endLine": 82,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "809df21d-17e7-44ae-b85a-ccf1774fc29d",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_07.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 82,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 82,
+      "endLine": 84,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "a86460ac-1a1d-49b1-9f7a-bf5dd4f18090",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_07.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 118,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 118,
+      "endLine": 120,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "fbfca96a-7b5e-49d7-8b58-2901d0bab26d",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_07.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 165,
+    "hash": "6ecb85f8ecd2144fa75249f174f1d4d8",
+    "textRange": {
+      "startLine": 165,
+      "endLine": 165,
+      "startOffset": 10,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async IIFE.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "0b1ad552-126b-440b-bbb5-141dae104c0d",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_08.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 5,
+    "hash": "c830f6c4155a5cbeef0f28771e61ed4d",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 23,
+      "endOffset": 31
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:crypto` over `crypto`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "2f125e22-bcb6-46fa-ac9d-1ddf938329d7",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_08.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 39,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 39,
+      "endLine": 41,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "79d1faf9-f242-4661-bf93-66edabcb34ce",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_08.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 58,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 58,
+      "endLine": 60,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "4a0067c4-f9ba-41a7-9442-4589a1c1eab5",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_08.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 90,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 90,
+      "endLine": 92,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "9eafbf4e-bbcb-47d7-aab0-9dc4e7f755ad",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_09.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 102,
+    "hash": "4e4428c052211f8e45cd5825432879ae",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 102,
+      "startOffset": 33,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_09.py",
+            "textRange": {
+              "startLine": 125,
+              "endLine": 125,
+              "startOffset": 33,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_09.py",
+            "textRange": {
+              "startLine": 156,
+              "endLine": 156,
+              "startOffset": 33,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_09.py",
+            "textRange": {
+              "startLine": 193,
+              "endLine": 193,
+              "startOffset": 33,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_09.py",
+            "textRange": {
+              "startLine": 216,
+              "endLine": 216,
+              "startOffset": 33,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Database error\" 5 times.",
+    "effort": "10min",
+    "debt": "10min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "2f3e8fb8-6019-4181-a2b0-51a9804258c5",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_09.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 121,
+    "hash": "f8856d2642fb3ac13bc1e3884d83ce6d",
+    "textRange": {
+      "startLine": 121,
+      "endLine": 121,
+      "startOffset": 37,
+      "endOffset": 53
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_09.py",
+            "textRange": {
+              "startLine": 179,
+              "endLine": 179,
+              "startOffset": 37,
+              "endOffset": 53
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_09.py",
+            "textRange": {
+              "startLine": 212,
+              "endLine": 212,
+              "startOffset": 37,
+              "endOffset": 53
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"User not found\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "72f6a1af-8237-4479-bce1-8219c3a96ef3",
+    "rule": "python:S8392",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_09.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 231,
+    "hash": "4a8cda642e562ae6c8b7c955b9df99f0",
+    "textRange": {
+      "startLine": 231,
+      "endLine": 231,
+      "startOffset": 4,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid binding the application to all network interfaces.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "fastapi",
+      "least-privilege",
+      "uvicorn",
+      "flask",
+      "deployment",
+      "network"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "d00b37fd-e269-4207-9915-773dfae8246c",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_10.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 43,
+    "hash": "abd351800da74addfb57eff15558c1ed",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 43,
+      "startOffset": 29,
+      "endOffset": 48
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_10.py",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 29,
+              "endOffset": 48
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_10.py",
+            "textRange": {
+              "startLine": 87,
+              "endLine": 87,
+              "startOffset": 29,
+              "endOffset": 48
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'Product not found' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "9f69eb52-ba0b-475d-9400-d9e5749d2e41",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 153,
+    "hash": "b969263939e6115e5fd8d12e15a8956b",
+    "textRange": {
+      "startLine": 153,
+      "endLine": 153,
+      "startOffset": 41,
+      "endOffset": 60
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 205,
+              "endLine": 205,
+              "startOffset": 8,
+              "endOffset": 27
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 220,
+              "endLine": 220,
+              "startOffset": 12,
+              "endOffset": 31
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 241,
+              "endLine": 241,
+              "startOffset": 12,
+              "endOffset": 31
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 262,
+              "endLine": 262,
+              "startOffset": 8,
+              "endOffset": 27
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 288,
+              "endLine": 288,
+              "startOffset": 12,
+              "endOffset": 31
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 316,
+              "endLine": 316,
+              "startOffset": 12,
+              "endOffset": 31
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"student_form.html\" 7 times.",
+    "effort": "14min",
+    "debt": "14min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "dcc9512c-bec6-4377-8afc-a8c06dd92eb6",
+    "rule": "python:S6965",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 186,
+    "hash": "f98291e1a2d0a909b0b4e910ce29a5aa",
+    "textRange": {
+      "startLine": 186,
+      "endLine": 186,
+      "startOffset": 0,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify the HTTP methods this route should accept.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "flask"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "883f2e25-3822-4235-8b41-bc7d51659ed0",
+    "rule": "python:S6965",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 191,
+    "hash": "34c94c2cd7b203d0a539f778dae1536e",
+    "textRange": {
+      "startLine": 191,
+      "endLine": 191,
+      "startOffset": 0,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify the HTTP methods this route should accept.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "flask"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "7e01fb31-924a-4cd3-b2f6-8cccda43832d",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 206,
+    "hash": "df80d6036ee8520a63eef181e6205da0",
+    "textRange": {
+      "startLine": 206,
+      "endLine": 206,
+      "startOffset": 14,
+      "endOffset": 27
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 207,
+              "endLine": 207,
+              "startOffset": 16,
+              "endOffset": 29
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 221,
+              "endLine": 221,
+              "startOffset": 18,
+              "endOffset": 31
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 222,
+              "endLine": 222,
+              "startOffset": 20,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 242,
+              "endLine": 242,
+              "startOffset": 18,
+              "endOffset": 31
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 243,
+              "endLine": 243,
+              "startOffset": 20,
+              "endOffset": 33
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Add Student\" 6 times.",
+    "effort": "12min",
+    "debt": "12min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "e2c10103-8fbd-417f-9d8e-650d4725dfe0",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 263,
+    "hash": "0ebabba51009e1b1836734926e8d8ad2",
+    "textRange": {
+      "startLine": 263,
+      "endLine": 263,
+      "startOffset": 14,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 264,
+              "endLine": 264,
+              "startOffset": 16,
+              "endOffset": 30
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 289,
+              "endLine": 289,
+              "startOffset": 18,
+              "endOffset": 32
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 290,
+              "endLine": 290,
+              "startOffset": 20,
+              "endOffset": 34
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 317,
+              "endLine": 317,
+              "startOffset": 18,
+              "endOffset": 32
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+            "textRange": {
+              "startLine": 318,
+              "endLine": 318,
+              "startOffset": 20,
+              "endOffset": 34
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Edit Student\" 6 times.",
+    "effort": "12min",
+    "debt": "12min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "e2711610-b668-4eec-901f-46b04dce991c",
+    "rule": "python:S8392",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 344,
+    "hash": "4a8cda642e562ae6c8b7c955b9df99f0",
+    "textRange": {
+      "startLine": 344,
+      "endLine": 344,
+      "startOffset": 4,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid binding the application to all network interfaces.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "fastapi",
+      "least-privilege",
+      "uvicorn",
+      "flask",
+      "deployment",
+      "network"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "5564bb46-9403-4c4e-8f06-4e0aa73da0c4",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_12.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 44,
+    "hash": "c853cb458b7941b02a2fbabf7a9b578c",
+    "textRange": {
+      "startLine": 44,
+      "endLine": 44,
+      "startOffset": 29,
+      "endOffset": 45
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_12.py",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 29,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_12.py",
+            "textRange": {
+              "startLine": 83,
+              "endLine": 83,
+              "startOffset": 29,
+              "endOffset": 45
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal 'Post not found' 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "b4b37068-21cc-40e6-a507-a032161ac039",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_13.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 65,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 67,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "8a8c0ec1-6f4e-4ac6-8d22-e0cce8c7335f",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_13.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 83,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 83,
+      "endLine": 85,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "b7f46b82-1a4f-4a3d-aa70-0266bd4f0641",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_13.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 102,
+    "hash": "8c42d4e68c2875e566c107806f435741",
+    "textRange": {
+      "startLine": 102,
+      "endLine": 102,
+      "startOffset": 8,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "88283321-c158-40a1-91b7-315e1172c067",
+    "rule": "javascript:S6582",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_13.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 135,
+    "hash": "8c42d4e68c2875e566c107806f435741",
+    "textRange": {
+      "startLine": 135,
+      "endLine": 135,
+      "startOffset": 8,
+      "endOffset": 46
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "ab088b9c-2986-4562-88ab-7c7eac65eeac",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_13.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 155,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 155,
+      "endLine": 157,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "1a375664-2633-4ee7-8de3-438ae4c1673c",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_13.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 160,
+    "hash": "6ecb85f8ecd2144fa75249f174f1d4d8",
+    "textRange": {
+      "startLine": 160,
+      "endLine": 160,
+      "startOffset": 10,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async IIFE.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "4e815903-cd61-4932-8ee0-14ef79dcf83b",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_14.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 30,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 30,
+      "endLine": 32,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "e53b1983-7d88-425e-b3e0-faff4eae0977",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_14.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 43,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 43,
+      "endLine": 45,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "11ed687a-9ee5-480d-8fcf-ba05fb893b54",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_14.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 60,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 60,
+      "endLine": 62,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "01996308-92d7-461f-b7d5-157ceffad18e",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_14.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 71,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 71,
+      "endLine": 73,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "014fa668-55be-4eab-873d-c8944f9e4b76",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_15.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 68,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 70,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "86872eee-5cd3-4b55-9815-a11f166151b6",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_15.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 86,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 86,
+      "endLine": 88,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "36306db1-8139-4f50-90aa-9edfff8afeaa",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_15.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 174,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 174,
+      "endLine": 176,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "68a301bc-7fa2-4279-8c95-81d27f0df60c",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_15.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 179,
+    "hash": "6ecb85f8ecd2144fa75249f174f1d4d8",
+    "textRange": {
+      "startLine": 179,
+      "endLine": 179,
+      "startOffset": 10,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async IIFE.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "f3161a1d-eee8-43b9-b9cc-3dd0aa04f535",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_16.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 22,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 22,
+      "endLine": 24,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "f5691536-7509-401e-ab3c-70b1fc780149",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_16.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 33,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 33,
+      "endLine": 35,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "309e9da2-cb6d-45b6-8a2d-2148a3da5256",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_16.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 49,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 49,
+      "endLine": 51,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "f1cc018e-ec34-4cd7-9d54-cb07761a8e30",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_16.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 61,
+    "hash": "b06f347b563591b3c05c6aa29f2603d3",
+    "textRange": {
+      "startLine": 61,
+      "endLine": 61,
+      "startOffset": 20,
+      "endOffset": 38
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "0957e4b3-6026-4422-a89f-2feeb652c3d1",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_16.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 62,
+    "hash": "ea16bb7b98ef76626dfa1952b4a46234",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 62,
+      "startOffset": 26,
+      "endOffset": 50
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "a35b853b-0c82-4add-853e-8113e30a2c1a",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_16.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 63,
+    "hash": "de30f92c52092ca42864d789640262b2",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 22,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "d85d330a-a61a-4ec1-a46d-260cf382b13c",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_16.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 64,
+    "hash": "fa9116541460e813029da336dc168f1e",
+    "textRange": {
+      "startLine": 64,
+      "endLine": 64,
+      "startOffset": 21,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "65a3ff6e-65f6-42b6-828b-74b61cec23f5",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_16.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 65,
+    "hash": "7dff6c3dd5e4079733e83202b7402237",
+    "textRange": {
+      "startLine": 65,
+      "endLine": 65,
+      "startOffset": 24,
+      "endOffset": 47
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "db38f1ad-79f6-4470-9580-b2e66b3bb400",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_16.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 72,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 72,
+      "endLine": 74,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "1ce143c4-9aae-43e1-a454-fe312d5086df",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_16.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 83,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 83,
+      "endLine": 85,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "8db23b20-0d3a-4e00-ac2e-181472c412b8",
+    "rule": "python:S2068",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_17.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 10,
+    "hash": "706d986b51485b33c9b5d146372f8023",
+    "textRange": {
+      "startLine": 10,
+      "endLine": 10,
+      "startOffset": 11,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "\"SECRET_KEY\" detected here, review this potentially hard-coded credential.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "4225ab0f-d1c7-40f6-9dd4-758ec7246211",
+    "rule": "python:S2068",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_18.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 8,
+    "hash": "23911ca1e1a376f931725b095d2dabee",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 11,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "\"SECRET_KEY\" detected here, review this potentially hard-coded credential.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "b79bc000-0af2-420d-9127-78d680959e45",
+    "rule": "python:S6779",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_18.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 8,
+    "hash": "23911ca1e1a376f931725b095d2dabee",
+    "textRange": {
+      "startLine": 8,
+      "endLine": 8,
+      "startOffset": 27,
+      "endOffset": 39
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_18.py",
+            "textRange": {
+              "startLine": 8,
+              "endLine": 8,
+              "startOffset": 0,
+              "endOffset": 24
+            },
+            "msg": "Assignment to sensitive property.",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Don't disclose \"Flask\" secret keys.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe",
+      "flask"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "c47eb85e-d0f9-494d-b9b3-d5c0eb8353e7",
+    "rule": "python:S6965",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_18.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 40,
+    "hash": "7f1d8ce951f8e9e9062d860fd2f55d9a",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 40,
+      "startOffset": 0,
+      "endOffset": 15
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify the HTTP methods this route should accept.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "flask"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "7dc98e02-8f6b-45c0-bf92-5d997cbb903c",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_18.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 96,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 96,
+      "endLine": 96,
+      "startOffset": 2,
+      "endOffset": 8
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "3bf1f683-6bf0-4e04-b211-eea763a01a99",
+    "rule": "python:S6965",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_18.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 116,
+    "hash": "9b9d38ac684bad5eac5351c3b71848ef",
+    "textRange": {
+      "startLine": 116,
+      "endLine": 116,
+      "startOffset": 0,
+      "endOffset": 22
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify the HTTP methods this route should accept.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "flask"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "fe3153cd-5cb5-491a-9171-ad6ed9803600",
+    "rule": "python:S2068",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_19.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 12,
+    "hash": "706d986b51485b33c9b5d146372f8023",
+    "textRange": {
+      "startLine": 12,
+      "endLine": 12,
+      "startOffset": 11,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "\"SECRET_KEY\" detected here, review this potentially hard-coded credential.",
+    "effort": "30min",
+    "debt": "30min",
+    "author": "",
+    "tags": [
+      "cwe"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "TRUSTWORTHY",
+    "cleanCodeAttributeCategory": "RESPONSIBLE",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "4b3a65fb-d0f2-495c-9c12-43f07ce6fb70",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 21,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 21,
+      "endLine": 21,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "ad767b27-ba50-434d-8fb1-51d2d6b355d7",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 26,
+    "hash": "9e457799918464fc9f15840c93064c9f",
+    "textRange": {
+      "startLine": 26,
+      "endLine": 26,
+      "startOffset": 4,
+      "endOffset": 18
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 27,
+              "endLine": 27,
+              "startOffset": 30,
+              "endOffset": 32
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 28,
+              "endLine": 28,
+              "startOffset": 37,
+              "endOffset": 39
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 29,
+              "endLine": 29,
+              "startOffset": 31,
+              "endOffset": 33
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 30,
+              "endLine": 30,
+              "startOffset": 27,
+              "endOffset": 29
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 31,
+              "endLine": 31,
+              "startOffset": 35,
+              "endOffset": 37
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 32,
+              "endLine": 32,
+              "startOffset": 27,
+              "endOffset": 29
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 36,
+              "endLine": 36,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 39,
+              "endLine": 39,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 24,
+              "endOffset": 26
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 46,
+              "endLine": 46,
+              "startOffset": 4,
+              "endOffset": 10
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 50,
+              "endLine": 50,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 56,
+              "endLine": 56,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "a0186358-87c2-48da-8125-d72f587b6187",
+    "rule": "python:S5754",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 46,
+    "hash": "3e264f5fbab10735799511f21ca70842",
+    "textRange": {
+      "startLine": 46,
+      "endLine": 46,
+      "startOffset": 4,
+      "endOffset": 10
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Specify an exception class to catch or reraise the exception",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "error-handling",
+      "bad-practice",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "COMPLETE",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "8479c29a-1407-4e2d-b123-632100def82b",
+    "rule": "python:S1066",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 50,
+    "hash": "16820a0c4e08758c8a6857ffb3682839",
+    "textRange": {
+      "startLine": 50,
+      "endLine": 50,
+      "startOffset": 8,
+      "endOffset": 10
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 4,
+              "endOffset": 6
+            },
+            "msg": "enclosing",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Merge this if statement with the enclosing one.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "clumsy"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "a7fb063a-c876-43bf-a02b-d56a4a723df6",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_21.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 113,
+    "hash": "161b8313784081f5965c2da97df48970",
+    "textRange": {
+      "startLine": 113,
+      "endLine": 117,
+      "startOffset": 4,
+      "endOffset": 3
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "1d912f7f-e468-44b0-9954-69c289ba5759",
+    "rule": "javascript:S7785",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_21.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 120,
+    "hash": "6ecb85f8ecd2144fa75249f174f1d4d8",
+    "textRange": {
+      "startLine": 120,
+      "endLine": 120,
+      "startOffset": 10,
+      "endOffset": 12
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer top-level await over an async IIFE.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "async",
+      "es2022",
+      "modernize"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "3f9cb2b1-98ee-46a1-b3a6-52e8d5d9ccdf",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_22.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 5,
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "textRange": {
+      "startLine": 5,
+      "endLine": 5,
+      "startOffset": 21,
+      "endOffset": 27
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:path` over `path`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "801fe6ef-2d43-42fc-a17d-c03d851e39f7",
+    "rule": "javascript:S7772",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_22.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 6,
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "textRange": {
+      "startLine": 6,
+      "endLine": 6,
+      "startOffset": 19,
+      "endOffset": 23
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Prefer `node:fs` over `fs`.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "convention",
+      "import",
+      "nodejs"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "9aded9ad-1b30-4406-bcb9-c3b9557df739",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_22.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 78,
+    "hash": "550051ee6b000602ffe414172dfff76d",
+    "textRange": {
+      "startLine": 78,
+      "endLine": 80,
+      "startOffset": 6,
+      "endOffset": 5
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "be1088f1-3c27-415b-b3a7-4ce527ea021c",
+    "rule": "javascript:S3800",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 41,
+    "hash": "9ee5d8e2f5ec8c44dc9ee9a763246dc5",
+    "textRange": {
+      "startLine": 41,
+      "endLine": 41,
+      "startOffset": 26,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 43,
+              "endLine": 43,
+              "startOffset": 6,
+              "endOffset": 41
+            },
+            "msg": "Returns string",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 6,
+              "endOffset": 65
+            },
+            "msg": "Returns string",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 49,
+              "endLine": 49,
+              "startOffset": 4,
+              "endOffset": 16
+            },
+            "msg": "Returns boolean",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to always return the same type.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "1f0dc626-c1b3-4d1a-a206-4a97e22416f1",
+    "rule": "javascript:S3800",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 51,
+    "hash": "fadcf5be7c3441559773b73c3d2e607b",
+    "textRange": {
+      "startLine": 51,
+      "endLine": 51,
+      "startOffset": 23,
+      "endOffset": 25
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 53,
+              "endLine": 53,
+              "startOffset": 6,
+              "endOffset": 38
+            },
+            "msg": "Returns string",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 58,
+              "endLine": 58,
+              "startOffset": 6,
+              "endOffset": 51
+            },
+            "msg": "Returns string",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 4,
+              "endOffset": 16
+            },
+            "msg": "Returns boolean",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to always return the same type.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "6abc86db-e92e-4c85-b807-515e5066cf1e",
+    "rule": "javascript:S3800",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 62,
+    "hash": "e2343fe66f5f31e88fae548b4053d5de",
+    "textRange": {
+      "startLine": 62,
+      "endLine": 62,
+      "startOffset": 26,
+      "endOffset": 28
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 64,
+              "endLine": 64,
+              "startOffset": 6,
+              "endOffset": 41
+            },
+            "msg": "Returns string",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 67,
+              "endLine": 67,
+              "startOffset": 6,
+              "endOffset": 59
+            },
+            "msg": "Returns string",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 70,
+              "endLine": 70,
+              "startOffset": 6,
+              "endOffset": 72
+            },
+            "msg": "Returns string",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 72,
+              "endLine": 72,
+              "startOffset": 4,
+              "endOffset": 16
+            },
+            "msg": "Returns boolean",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to always return the same type.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "dfc26f7f-3f34-45ba-a582-c6d38dd6165f",
+    "rule": "javascript:S6353",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 69,
+    "hash": "34f8d69bcca1f77e31bc4803a4061803",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 37,
+      "endOffset": 42
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Use concise character class syntax '\\d' instead of '[0-9]'.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "regex",
+      "type-dependent"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "ef7ec23f-4c5e-49b7-b54d-51116f141245",
+    "rule": "javascript:S3800",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 74,
+    "hash": "0843dbc8133696dc69d5ae13b38cad39",
+    "textRange": {
+      "startLine": 74,
+      "endLine": 74,
+      "startOffset": 39,
+      "endOffset": 41
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 76,
+              "endLine": 76,
+              "startOffset": 6,
+              "endOffset": 49
+            },
+            "msg": "Returns string",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 79,
+              "endLine": 79,
+              "startOffset": 6,
+              "endOffset": 52
+            },
+            "msg": "Returns string",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 81,
+              "endLine": 81,
+              "startOffset": 4,
+              "endOffset": 16
+            },
+            "msg": "Returns boolean",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to always return the same type.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "2c87e242-ace2-49c3-8b8f-3f07d476c9ec",
+    "rule": "javascript:S3800",
+    "severity": "MAJOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 83,
+    "hash": "f0118ccb41fa248f087e7cfe2057d86b",
+    "textRange": {
+      "startLine": 83,
+      "endLine": 83,
+      "startOffset": 21,
+      "endOffset": 23
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 85,
+              "endLine": 85,
+              "startOffset": 6,
+              "endOffset": 31
+            },
+            "msg": "Returns string",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 89,
+              "endLine": 89,
+              "startOffset": 6,
+              "endOffset": 36
+            },
+            "msg": "Returns string",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 92,
+              "endLine": 92,
+              "startOffset": 6,
+              "endOffset": 45
+            },
+            "msg": "Returns string",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+            "textRange": {
+              "startLine": 94,
+              "endLine": 94,
+              "startOffset": 4,
+              "endOffset": 16
+            },
+            "msg": "Returns boolean",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to always return the same type.",
+    "effort": "20min",
+    "debt": "20min",
+    "author": "",
+    "tags": [
+      "type-dependent",
+      "confusing"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "MEDIUM"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "841a389b-99b0-46f4-a6db-4a5af2cb73df",
+    "rule": "python:S3776",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 42,
+    "hash": "2823e13423472636d16de006a1c428da",
+    "textRange": {
+      "startLine": 42,
+      "endLine": 42,
+      "startOffset": 4,
+      "endOffset": 22
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 44,
+              "endLine": 44,
+              "startOffset": 4,
+              "endOffset": 7
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 45,
+              "endLine": 45,
+              "startOffset": 8,
+              "endOffset": 10
+            },
+            "msg": "+2 (incl 1 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 47,
+              "endLine": 47,
+              "startOffset": 12,
+              "endOffset": 14
+            },
+            "msg": "+3 (incl 2 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 48,
+              "endLine": 48,
+              "startOffset": 33,
+              "endOffset": 35
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 51,
+              "endLine": 51,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 52,
+              "endLine": 52,
+              "startOffset": 33,
+              "endOffset": 35
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 54,
+              "endLine": 54,
+              "startOffset": 16,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 57,
+              "endLine": 57,
+              "startOffset": 20,
+              "endOffset": 26
+            },
+            "msg": "+5 (incl 4 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 59,
+              "endLine": 59,
+              "startOffset": 12,
+              "endOffset": 16
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 60,
+              "endLine": 60,
+              "startOffset": 16,
+              "endOffset": 18
+            },
+            "msg": "+4 (incl 3 for nesting)",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 62,
+              "endLine": 62,
+              "startOffset": 16,
+              "endOffset": 20
+            },
+            "msg": "+1",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Refactor this function to reduce its Cognitive Complexity from 29 to the 15 allowed.",
+    "effort": "19min",
+    "debt": "19min",
+    "author": "",
+    "tags": [
+      "brain-overload"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "FOCUSED",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "0a85590b-04da-42b0-8eb8-537d2f48e2e2",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 83,
+    "hash": "f21433aea42463784f6b6d592f142613",
+    "textRange": {
+      "startLine": 83,
+      "endLine": 83,
+      "startOffset": 33,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 113,
+              "endLine": 113,
+              "startOffset": 33,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+            "textRange": {
+              "startLine": 136,
+              "endLine": 136,
+              "startOffset": 33,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Book not found\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "321e4f46-e733-457f-84be-4b697e46ff52",
+    "rule": "python:S8392",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 163,
+    "hash": "4a8cda642e562ae6c8b7c955b9df99f0",
+    "textRange": {
+      "startLine": 163,
+      "endLine": 163,
+      "startOffset": 4,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid binding the application to all network interfaces.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "fastapi",
+      "least-privilege",
+      "uvicorn",
+      "flask",
+      "deployment",
+      "network"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "d01bf4de-79d6-4152-a3f0-0ce21dfb215d",
+    "rule": "python:S1192",
+    "severity": "CRITICAL",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_26.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 63,
+    "hash": "2add2930f6284cd5c2be5e4bc11bc303",
+    "textRange": {
+      "startLine": 63,
+      "endLine": 63,
+      "startOffset": 33,
+      "endOffset": 49
+    },
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_26.py",
+            "textRange": {
+              "startLine": 101,
+              "endLine": 101,
+              "startOffset": 33,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "comparison-20261012-ai-syntax-corrected:sample_26.py",
+            "textRange": {
+              "startLine": 131,
+              "endLine": 131,
+              "startOffset": 33,
+              "endOffset": 49
+            },
+            "msg": "Duplication",
+            "msgFormattings": []
+          }
+        ]
+      }
+    ],
+    "status": "OPEN",
+    "message": "Define a constant instead of duplicating this literal \"Todo not found\" 3 times.",
+    "effort": "6min",
+    "debt": "6min",
+    "author": "",
+    "tags": [
+      "design"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "DISTINCT",
+    "cleanCodeAttributeCategory": "ADAPTABLE",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "HIGH"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "83080951-38e9-434e-a59f-b89181cc3cc0",
+    "rule": "python:S8392",
+    "severity": "BLOCKER",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_26.py",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 143,
+    "hash": "4a8cda642e562ae6c8b7c955b9df99f0",
+    "textRange": {
+      "startLine": 143,
+      "endLine": 143,
+      "startOffset": 4,
+      "endOffset": 11
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Avoid binding the application to all network interfaces.",
+    "effort": "5min",
+    "debt": "5min",
+    "author": "",
+    "tags": [
+      "fastapi",
+      "least-privilege",
+      "uvicorn",
+      "flask",
+      "deployment",
+      "network"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "VULNERABILITY",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CONVENTIONAL",
+    "cleanCodeAttributeCategory": "CONSISTENT",
+    "impacts": [
+      {
+        "softwareQuality": "SECURITY",
+        "severity": "BLOCKER"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "24feaacf-0f22-4e36-b961-39d4759d9ad1",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_29.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 29,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 29,
+      "endLine": 31,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "5c26c736-a98e-4a0a-b7c0-f7f9b410ef26",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_29.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 40,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 40,
+      "endLine": 42,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "dba68ecd-61a8-4d21-8784-43614ac36513",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_29.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 52,
+    "hash": "53bbd5baef3ae3df2dc93d43d23a256a",
+    "textRange": {
+      "startLine": 52,
+      "endLine": 52,
+      "startOffset": 29,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "95b1a601-04a3-4be3-9d7f-78da0519fdb0",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_29.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 56,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 56,
+      "endLine": 58,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "d9235d64-2c97-424e-8f03-fbade7f109b2",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_29.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 68,
+    "hash": "b4898649ac4f4698b085828973619ec0",
+    "textRange": {
+      "startLine": 68,
+      "endLine": 68,
+      "startOffset": 21,
+      "endOffset": 40
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "7e0a4d1d-0d8a-4366-9c83-2434bf70bfe0",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_29.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 69,
+    "hash": "4d74d0c2c851977081e77865b6275452",
+    "textRange": {
+      "startLine": 69,
+      "endLine": 69,
+      "startOffset": 27,
+      "endOffset": 52
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "7d98b49b-e574-45c6-820c-ec745f329c0f",
+    "rule": "javascript:S7735",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_29.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 70,
+    "hash": "b761250fe5fa7a0a84435c2d86fd37eb",
+    "textRange": {
+      "startLine": 70,
+      "endLine": 70,
+      "startOffset": 25,
+      "endOffset": 48
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Unexpected negated condition.",
+    "effort": "2min",
+    "debt": "2min",
+    "author": "",
+    "tags": [
+      "readability"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": true,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "3f89f9e2-fdc0-4ab2-b901-b7711005003f",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_29.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 77,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 77,
+      "endLine": 79,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  },
+  {
+    "key": "d134bc6c-fd8a-4bb6-a5e1-00ff1ed9e5b7",
+    "rule": "javascript:S2486",
+    "severity": "MINOR",
+    "component": "comparison-20261012-ai-syntax-corrected:sample_29.js",
+    "project": "comparison-20261012-ai-syntax-corrected",
+    "line": 88,
+    "hash": "9dcd66fc3d98a347c205c43e822e7ebd",
+    "textRange": {
+      "startLine": 88,
+      "endLine": 90,
+      "startOffset": 2,
+      "endOffset": 1
+    },
+    "flows": [],
+    "status": "OPEN",
+    "message": "Handle this exception or don't catch it at all.",
+    "effort": "1h",
+    "debt": "1h",
+    "author": "",
+    "tags": [
+      "cwe",
+      "error-handling",
+      "suspicious"
+    ],
+    "creationDate": "2026-10-12T07:22:34+0000",
+    "updateDate": "2026-10-12T07:22:34+0000",
+    "type": "CODE_SMELL",
+    "scope": "MAIN",
+    "quickFixAvailable": false,
+    "messageFormattings": [],
+    "codeVariants": [],
+    "cleanCodeAttribute": "CLEAR",
+    "cleanCodeAttributeCategory": "INTENTIONAL",
+    "impacts": [
+      {
+        "softwareQuality": "MAINTAINABILITY",
+        "severity": "LOW"
+      }
+    ],
+    "issueStatus": "OPEN",
+    "prioritizedRule": false,
+    "fromSonarQubeUpdate": false,
+    "internalTags": [],
+    "linkedTicketStatus": "NOT_LINKED"
+  }
+]

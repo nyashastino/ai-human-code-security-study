@@ -1,0 +1,117 @@
+group,sample,file,line,rule,priority,message,finding_id,manual_decision
+AI,7,sample_07.js,146,javascript:S2068,HIGH,Review this potentially hard-coded password.,8f670e53-8c66-427b-af3f-658699d3a2e1,Confirmed security concern
+AI,7,sample_07.js,147,javascript:S2068,HIGH,Review this potentially hard-coded password.,9285068c-1229-43f8-b066-0afe73aaabef,Confirmed security concern
+AI,7,sample_07.js,148,javascript:S2068,HIGH,Review this potentially hard-coded password.,2f38c010-a827-4a63-82b1-b1d7e23bf3a5,Confirmed security concern
+AI,30,sample_30.js,11,javascript:S2068,HIGH,Review this potentially hard-coded password.,b317bfca-8141-4a50-bdf7-b1c74ccec644,Confirmed security concern
+AI,1,sample_01.py,9,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,a19ec4c2-353f-47b0-87d1-4847ff9689f6,Confirmed security concern
+AI,2,sample_02.py,9,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,c06e79a4-3a60-4699-936d-94f8c815fb8e,Confirmed security concern
+AI,3,sample_03.py,10,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,0cd59994-8649-431f-96ea-6502ff4d9b8c,Confirmed security concern
+AI,4,sample_04.py,8,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,3c0d40e6-2711-4eab-b16f-c827a119ecd9,Confirmed security concern
+AI,9,sample_09.py,8,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,bc467230-50e4-41c9-9b98-1c094e56d237,Confirmed security concern
+AI,10,sample_10.py,5,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,df15aede-9498-40b9-83bc-ab59b412443d,Confirmed security concern
+AI,11,sample_11.py,6,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,a2d642c3-3453-4eb9-afa4-9bb7d0bc6e99,Confirmed security concern
+AI,12,sample_12.py,6,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,fb3eda8e-250d-4baa-acd0-c7f9a888168a,Confirmed security concern
+AI,17,sample_17.py,9,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,81f5932a-b6d2-4e0c-a7df-26430706d564,Confirmed security concern
+AI,18,sample_18.py,7,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,67cac36f-d84d-43df-a785-401b878ea6a8,Confirmed security concern
+AI,19,sample_19.py,11,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,7ac1f6bf-c11a-4c92-b383-dee4fd35a5d0,Confirmed security concern
+AI,20,sample_20.py,6,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,097c2133-741f-43a0-b5e6-21a4905b7e59,Confirmed security concern
+AI,24,sample_24.py,6,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,3c5c73ae-70a6-4665-9fcf-74acc36c3845,Confirmed security concern
+AI,25,sample_25.py,6,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,352036af-92e2-4958-8d24-b82605ec9478,Confirmed security concern
+AI,26,sample_26.py,8,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,2431040e-6b72-4e51-aa79-417f511b3ed9,Confirmed security concern
+AI,27,sample_27.py,5,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,225688c1-508d-4472-8071-f7e92aeba1e2,Confirmed security concern
+AI,1,sample_01.py,98,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,54cea2ad-74cc-426a-a3c9-9610400d6ff4,Confirmed security concern
+AI,1,sample_01.py,118,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,1a7f6300-fdcd-4323-b58e-fcab2de3f018,Confirmed security concern
+AI,17,sample_17.py,107,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,5017c733-a5a6-44be-bd0e-3d33c1b65ab7,Confirmed security concern
+AI,18,sample_18.py,45,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,6f684cb4-9f87-4b19-ae4a-37efadff855b,Confirmed security concern
+AI,18,sample_18.py,66,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,28563d42-4f5b-418b-8e9e-9a8cca3e6324,Confirmed security concern
+AI,18,sample_18.py,86,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,6df20503-fbb5-4ccf-882b-60fdb28e055b,Confirmed security concern
+AI,19,sample_19.py,87,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,1b4a637b-4003-49b3-b8dd-a2a0b4e589cc,Confirmed security concern
+AI,23,sample_23.js,56,javascript:S5852,MEDIUM,"Make sure the regex used here, which is vulnerable to super-linear runtime due to backtracking, cannot lead to denial of service.",91704f9d-9c8b-49b8-814d-e12803711b01,Confirmed security concern
+AI,20,sample_20.py,10,python:S5852,MEDIUM,"Make sure the regex used here, which is vulnerable to polynomial runtime due to backtracking, cannot lead to denial of service.",41c51a2a-f502-4f52-88f7-5ed2b370bcd3,Confirmed security concern
+AI,22,sample_22.js,29,javascript:S2245,MEDIUM,Make sure that using this pseudorandom number generator is safe here.,9e50fcc3-e221-48f2-a255-2e6467034a26,Confirmed security concern
+AI,1,sample_01.py,155,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,72ac9640-3722-43dd-b087-b3e1d5311bac,Needs more context
+AI,2,sample_02.py,96,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,3f2be111-042e-4b52-a08f-fcd817b45b1a,Needs more context
+AI,3,sample_03.py,139,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,ffda42f2-a5da-4325-8522-8eb7741f43ce,Needs more context
+AI,4,sample_04.py,77,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,6828d633-12b1-4fcd-870a-95962dc86b24,Needs more context
+AI,9,sample_09.py,231,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,9b69d211-5bfd-4ed9-b2f5-85856273437d,Needs more context
+AI,10,sample_10.py,94,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,011eca64-f3b8-4291-be62-2e53229f3cf7,Needs more context
+AI,11,sample_11.py,344,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,fa6c08e7-9d6d-445e-8775-395cdee8af2d,Needs more context
+AI,12,sample_12.py,90,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,2c93bbd0-ddc8-4ad5-a095-b2a5a0d90330,Needs more context
+AI,17,sample_17.py,130,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,7d2b857a-58d5-4db4-a723-63ce21650ea2,Needs more context
+AI,18,sample_18.py,122,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,31bdef6b-805e-45e2-9ed1-b279a01ac73d,Needs more context
+AI,19,sample_19.py,144,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,ece3e5ac-a8aa-4e04-8f83-27cc379e2ba3,Needs more context
+AI,20,sample_20.py,71,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,362294b8-bb17-4821-9ced-defd3347a2db,Needs more context
+AI,24,sample_24.py,163,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,b32f1cb5-0778-4586-9a48-7a3f5d00f4d5,Needs more context
+AI,25,sample_25.py,81,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,c75fe85d-ee62-43fd-bd20-f477d389ceb5,Needs more context
+AI,26,sample_26.py,143,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,f39952a1-fa6c-4890-ac2c-fe6edd25896d,Needs more context
+AI,27,sample_27.py,124,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,fc1ea7d5-de52-4b62-ae41-1a2b3ce296b8,Needs more context
+AI,5,sample_05.js,7,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,8ca7b2c2-dbba-42b2-baf5-43253b1e29c4,Confirmed security concern
+AI,6,sample_06.js,6,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,3dc69ef4-fe10-45bd-81a1-85c8b9060fbf,Confirmed security concern
+AI,7,sample_07.js,7,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,744142f1-e214-468e-9fb8-b933749830f5,Confirmed security concern
+AI,8,sample_08.js,6,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,21550ac3-652a-4435-a7ea-351252d4709a,Confirmed security concern
+AI,13,sample_13.js,5,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,d0975fc0-3a99-4dac-83fe-c75833c530d2,Confirmed security concern
+AI,14,sample_14.js,4,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,06ebe9d0-18fc-4c64-857b-96304347d114,Confirmed security concern
+AI,15,sample_15.js,5,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,bb43dde5-c61c-4a60-9c74-91dcc1573984,Confirmed security concern
+AI,16,sample_16.js,4,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,1d07330d-028e-4e36-ae89-9bc24ba10f45,Confirmed security concern
+AI,21,sample_21.js,6,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,8d7c6207-7240-438f-905d-5ef628d94f88,Confirmed security concern
+AI,22,sample_22.js,7,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,cb7ee7e6-0863-4917-8c77-b8c2122c93dd,Confirmed security concern
+AI,23,sample_23.js,4,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,f698535b-eeb9-4f05-8bd6-c134ccc7898a,Confirmed security concern
+AI,28,sample_28.js,4,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,dfd2968d-e11e-49b2-9c1d-ac056ab15d8b,Confirmed security concern
+AI,29,sample_29.js,4,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,a120ab0f-9421-40c3-b274-2c655fb421d7,Confirmed security concern
+AI,30,sample_30.js,4,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,ee32d4dc-1536-4e8e-a7bd-9108f6d369dd,Confirmed security concern
+Human,5,sample_05/src/lib/passport.js,12,javascript:S2068,HIGH,Review this potentially hard-coded password.,840c88b7-ec37-49d4-a3d6-1d1d67ceecf3,Confirmed security concern
+Human,5,sample_05/src/lib/passport.js,46,javascript:S2068,HIGH,Review this potentially hard-coded password.,4545e903-9c1c-4bc6-8364-2fb02a307d5d,Confirmed security concern
+Human,16,sample_16/src/database.js,6,javascript:S2068,HIGH,Review this potentially hard-coded password.,6c6222a4-212a-415d-8719-e3cc61b66608,Confirmed security concern
+Human,21,sample_21/_private/local_sql.js,4,javascript:S2068,HIGH,Review this potentially hard-coded password.,7bc031d1-c260-4131-81ca-21de9684d776,Confirmed security concern
+Human,1,sample_01/project/__init__.py,11,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,2d77b227-bfe4-4f12-bb50-2b73a00ad7fc,Confirmed security concern
+Human,2,sample_02/project/server/__init__.py,10,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,08380b67-4e5b-40c9-9f51-7fd0d340d93b,Confirmed security concern
+Human,3,sample_03/example/basic.py,82,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,a523b585-60ef-46a8-ae08-885944a88e31,Confirmed security concern
+Human,4,sample_04/app/__init__.py,16,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,b7b30caa-28df-49c7-a43b-e86385c96725,Confirmed security concern
+Human,9,sample_09/app.py,4,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,3ce4c88a-a759-46dd-8349-b97a16f4f0d4,Confirmed security concern
+Human,10,sample_10/app.py,7,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,f43f0cff-979e-436e-9356-4aeded9eb2a6,Confirmed security concern
+Human,11,sample_11/__init__.py,6,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,b1fec799-66f6-4058-94e0-4a9c47cc867a,Confirmed security concern
+Human,12,sample_12/rest_api_demo/app.py,11,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,4abce7fb-791d-4df3-824e-f9167098e303,Confirmed security concern
+Human,17,sample_17/app.py,7,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,dd09b00c-2b5d-4b3a-994e-1c2fac075eda,Confirmed security concern
+Human,18,sample_18/app.py,12,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,521daf9f-5fc2-47c8-aee9-dbc835376639,Confirmed security concern
+Human,19,sample_19/app/__init__.py,10,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,d50902ec-a61a-494b-b3d8-3a74d3001195,Confirmed security concern
+Human,20,sample_20/app.py,13,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,759e9cc4-a089-4bd2-a5f1-d8af8a85c441,Confirmed security concern
+Human,24,sample_24/app.py,10,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,2a7a7d28-3c15-4b9e-b720-2d56fb37c2ac,Confirmed security concern
+Human,25,sample_25/app.py,27,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,f53519e1-2319-41f6-aebe-18724ef8382c,Confirmed security concern
+Human,26,sample_26/app.py,8,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,f1baacac-3c34-40c8-9cb1-192764cc78e1,Confirmed security concern
+Human,27,sample_27/api/__init__.py,16,python:S4502,HIGH,Make sure disabling CSRF protection is safe here.,23d52544-8232-4a16-af11-f409dbce91d3,Confirmed security concern
+Human,4,sample_04/app/views.py,10,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,57aa889a-43fa-4247-81eb-b493eea492e9,Confirmed security concern
+Human,4,sample_04/app/views.py,30,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,a673054d-e4d2-43f5-b99c-acee001e2f3a,Confirmed security concern
+Human,4,sample_04/app/views.py,52,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,05a57857-87ad-40a4-9bf6-d69179c274ab,Confirmed security concern
+Human,4,sample_04/app/views.py,68,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,f4961ab3-9593-4ed1-bbbe-6f7f7a2613cb,Confirmed security concern
+Human,11,sample_11/__init__.py,60,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,fd28bee2-40e4-47b5-a397-08c8623fbe4f,Confirmed security concern
+Human,19,sample_19/app/routes.py,9,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,ffcb1ef4-e4b3-4065-bb81-e24a348cf61f,Confirmed security concern
+Human,20,sample_20/app.py,25,python:S3752,HIGH,Make sure allowing safe and unsafe HTTP methods is safe here.,173ab2ca-534e-4f51-a998-a1ff4b4b009a,Confirmed security concern
+Human,13,sample_13/_helpers/db.js,13,javascript:S2077,HIGH,Make sure that executing SQL queries is safe here.,03e532cf-2bd7-405d-bba3-1e7481ffb8bc,Confirmed security concern
+Human,21,sample_21/index.js,6,javascript:S5693,MEDIUM,Make sure the content length limit is safe here.,33c23750-b8d2-400e-acab-777540ecccaa,Confirmed security concern
+Human,22,sample_22/routes/upload.js,16,javascript:S5693,MEDIUM,Make sure the content length limit is safe here.,7091af85-3ec3-4e40-b78b-a4c74dc3474c,Confirmed security concern
+Human,6,sample_06/server.js,11,javascript:S5122,LOW,Make sure that enabling CORS is safe here.,63b501f4-addb-4f92-9f33-000c0bc3d52f,Confirmed security concern
+Human,8,sample_08/app.js,12,javascript:S5122,LOW,Make sure that enabling CORS is safe here.,56d72a36-079e-4e8b-8942-54d67bfeec92,Confirmed security concern
+Human,13,sample_13/server.js,9,javascript:S5122,LOW,Make sure that enabling CORS is safe here.,f6d3dd6e-8e95-450a-a7e0-2b235b76a06a,Confirmed security concern
+Human,14,sample_14/src/app.js,7,javascript:S5122,LOW,Make sure that enabling CORS is safe here.,70b09400-9399-4d18-9a12-c014e8d9b7c5,Confirmed security concern
+Human,15,sample_15/config/apiConfiguration.js,12,javascript:S5122,LOW,Make sure that enabling CORS is safe here.,546f4e6f-4af6-407e-91a1-5ebfcf52bf62,Confirmed security concern
+Human,21,sample_21/index.js,24,javascript:S5122,LOW,Make sure that enabling CORS is safe here.,7e523c59-cfe5-458f-ad26-c77209613673,Confirmed security concern
+Human,3,sample_03/example/basic.py,83,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,7fb3de33-0977-4e34-995f-3dec560898c4,Needs more context
+Human,10,sample_10/app.py,98,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,8c1aa80b-9593-4085-9c74-fc5e9e70ea23,Needs more context
+Human,11,sample_11/__init__.py,87,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,1bbea54a-cff8-41ac-8931-69604ebf4a8b,Needs more context
+Human,18,sample_18/app.py,67,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,ee473960-399c-44a9-b399-e02d3a71d890,Needs more context
+Human,24,sample_24/app.py,118,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,4d6809c8-cbc5-4be3-968d-c97579b0f491,Needs more context
+Human,26,sample_26/app.py,97,python:S4507,LOW,Make sure this debug feature is deactivated before delivering the code in production.,2f979590-175a-46fc-9f62-fd45a20b1bfd,Needs more context
+Human,2,sample_02/project/server/__init__.py,11,python:S5122,LOW,Make sure this permissive CORS policy is safe here.,d3449de4-55c4-4fe0-b7fd-908c071b58fc,Confirmed security concern
+Human,9,sample_09/app.py,5,python:S5122,LOW,Make sure this permissive CORS policy is safe here.,c77a6719-e304-4bc3-9ddd-216448ce222e,Confirmed security concern
+Human,26,sample_26/app.py,18,python:S5122,LOW,Make sure this permissive CORS policy is safe here.,36f0ad9c-c7f0-48d5-8591-08c11c522ce4,Confirmed security concern
+Human,5,sample_05/src/app.js,16,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,b915d499-e087-43c3-b277-22123bf7c4cb,Confirmed security concern
+Human,6,sample_06/server.js,3,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,3bf64134-71d8-471c-a3a8-06e9a739b65b,Confirmed security concern
+Human,8,sample_08/app.js,9,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,1047b713-70f3-4a58-a0bd-b958a638a489,Confirmed security concern
+Human,13,sample_13/server.js,3,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,9d58c994-2a55-4da0-bc04-5b9b42e1e15e,Confirmed security concern
+Human,14,sample_14/src/app.js,6,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,e4d567a1-cb91-4d97-8f84-6b3ec71afc2f,Confirmed security concern
+Human,16,sample_16/src/index.js,2,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,26ba2f9a-51b4-4669-9a78-5a014c0d3ce4,Confirmed security concern
+Human,21,sample_21/index.js,15,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,c2aade0a-2df2-4818-a62c-476d98d97761,Confirmed security concern
+Human,22,sample_22/app.js,11,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,12503dd0-5f3c-455b-a053-52c69cc959ca,Confirmed security concern
+Human,23,sample_23/app/app.js,6,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,b2986f1b-749c-4abb-b130-9aad9abbe0e4,Confirmed security concern
+Human,28,sample_28/app.js,2,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,39c6a7e3-9aa3-471d-b990-651514aec8a2,Confirmed security concern
+Human,30,sample_30/index.js,6,javascript:S5689,LOW,This framework implicitly discloses version information by default. Make sure it is safe here.,d395267a-89e9-45b8-8479-a20954b72d61,Confirmed security concern

@@ -1,0 +1,182 @@
+[
+  {
+    "sample": 1,
+    "task": "Python | User Registration & Login (Session-Based)",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask implementation of a user registration and login system.  Requirements: - User can register with a username, email, and password - Passwords must be stored using hashing (use werkzeug.security) - User can log in with email and password - Successful login creates a server-side session - A protected route /dashboard is accessible only to logged-in users - Unauthenticated users are redirected to /login - Use SQLite as the database via SQLAlchemy - Use Flask-WTForms for the registration and login forms - Include a /logout route that clears the session  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 2,
+    "task": "Python | JWT Authentication API",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask REST API implementation of a JWT-based user authentication system.  Requirements: - POST /register accepts username, email, and password and creates a new user - POST /login accepts email and password and returns a signed JWT token on success - GET /profile is a protected route that returns user data; requires a valid JWT in the Authorization header - Passwords must be hashed before storage using bcrypt - JWT tokens must expire after 1 hour - Use SQLite as the database via SQLAlchemy - Return appropriate HTTP status codes for success, invalid credentials, and missing tokens - Store users in a User table with id, username, email, and password_hash columns  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 3,
+    "task": "Python | Role-Based Access Control",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask implementation of a user authentication system with role-based access control.  Requirements: - Users have a role field with values: 'admin', 'moderator', or 'user' - POST /login returns a JWT token encoding the user's id and role - GET /admin is accessible only to users with the 'admin' role - GET /moderator is accessible to 'admin' and 'moderator' roles - GET /user is accessible to all authenticated users - Unauthorized access returns HTTP 403 - Use SQLite via SQLAlchemy for storage - Implement reusable decorators for role checking  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 4,
+    "task": "Python | Password Reset Flow",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask implementation of a password reset system.  Requirements: - POST /forgot-password accepts a user's email and generates a unique reset token - The token is stored in the database with an expiry time of 30 minutes - GET /reset-password/<token> validates the token and renders a password reset form - POST /reset-password/<token> accepts a new password, hashes it, and updates the user record - Expired or invalid tokens return an appropriate error message - Use SQLite via SQLAlchemy for storage - Use werkzeug.security for password hashing  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 5,
+    "task": "Node.js | User Registration & Login (Session-Based)",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express implementation of a user registration and login system.  Requirements: - POST /register accepts username, email, and password - Passwords must be hashed using bcrypt before storage - POST /login accepts email and password and creates an Express session on success - GET /dashboard is a protected route accessible only to logged-in users - Unauthenticated access to protected routes returns HTTP 401 - POST /logout destroys the session - Use MySQL as the database with the mysql2 package - Use express-session for session management  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 6,
+    "task": "Node.js | JWT Authentication API",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express REST API with JWT-based authentication.  Requirements: - POST /api/auth/register creates a new user with username, email, and password - POST /api/auth/login returns a signed JWT token on successful authentication - GET /api/profile is protected and requires a valid Bearer token in the Authorization header - Passwords are hashed using bcrypt - JWT tokens expire after 24 hours - Use MongoDB via Mongoose for storage - Middleware should verify the JWT and attach the user object to req.user - Return 401 for missing or invalid tokens and 400 for validation errors  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 7,
+    "task": "Node.js | Role-Based Access Control",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express implementation of JWT authentication with role-based access control.  Requirements: - Users have a role field: 'admin', 'moderator', or 'user' - POST /auth/login returns a JWT encoding the user's id and role - GET /admin requires the 'admin' role - GET /moderator requires 'admin' or 'moderator' roles - GET /user is accessible to any authenticated user - Unauthorized access returns HTTP 403 - Use MongoDB via Mongoose - Implement middleware functions for token verification and role authorization  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 8,
+    "task": "Node.js | Password Reset Flow",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express implementation of a password reset system.  Requirements: - POST /forgot-password accepts an email and stores a unique reset token with a 30-minute expiry - GET /reset-password/:token validates the token and returns a success or error message - POST /reset-password/:token accepts a new password, hashes it with bcrypt, and updates the user - Expired or invalid tokens return HTTP 400 with an error message - Use MySQL with the mysql2 package - Tokens must be cryptographically random (use crypto.randomBytes) - Tokens are deleted after successful password reset  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 9,
+    "task": "Python | CRUD for User Records (MySQL)",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask REST API that performs full CRUD operations on a user records database.  Requirements: - GET /users returns a list of all users as JSON - GET /users/<id> returns a single user by ID - POST /users creates a new user with fields: name, email, age - PUT /users/<id> updates an existing user's name, email, and age - DELETE /users/<id> deletes a user by ID - Use MySQL as the database with the mysql-connector-python package - Return HTTP 404 if a user is not found - Return HTTP 400 for invalid or missing input fields - All responses must be in JSON format  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 10,
+    "task": "Python | CRUD for Product Inventory (SQLAlchemy)",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask REST API for managing a product inventory using SQLAlchemy ORM.  Requirements: - Product model has fields: id, name, description, price, quantity - GET /products returns all products - GET /products/<id> returns one product by ID - POST /products creates a new product - PUT /products/<id> updates a product's fields - DELETE /products/<id> removes a product - Use SQLite via Flask-SQLAlchemy - Return 404 for non-existent products and 400 for missing required fields - All responses are JSON  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 11,
+    "task": "Python | CRUD for Student Records",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask web application that performs CRUD operations on a student records database.  Requirements: - Student model has fields: id, name, age, email, course - GET /students displays all students in an HTML table - GET /students/add shows a form to add a new student - POST /students/add inserts the new student into the database - GET /students/edit/<id> shows a pre-filled edit form - POST /students/edit/<id> updates the student record - POST /students/delete/<id> deletes the student - Use MySQL via mysql-connector-python - Use Jinja2 templates for HTML rendering  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 12,
+    "task": "Python | CRUD for Blog Posts",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask REST API for managing blog posts.  Requirements: - Post model has fields: id, title, content, author, created_at - GET /posts returns all posts ordered by created_at descending - GET /posts/<id> returns a single post - POST /posts creates a new post; title, content, and author are required - PUT /posts/<id> updates a post's title and content - DELETE /posts/<id> deletes a post - created_at is set automatically on creation - Use SQLite via Flask-SQLAlchemy - Return appropriate status codes and JSON error messages  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 13,
+    "task": "Node.js | CRUD for User Records (MySQL)",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express REST API that performs full CRUD operations on a MySQL users database.  Requirements: - GET /users returns all users as JSON - GET /users/:id returns a single user by ID - POST /users creates a new user with name, email, and age - PUT /users/:id updates an existing user - DELETE /users/:id deletes a user by ID - Use MySQL with the mysql2 package - Return 404 if a user is not found - Return 400 for missing required fields - All responses are JSON  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 14,
+    "task": "Node.js | CRUD for Products (MongoDB)",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express REST API for managing products using MongoDB.  Requirements: - Product schema has: name (required), description, price (required), quantity, createdAt - GET /api/products returns all products - GET /api/products/:id returns one product - POST /api/products creates a new product - PUT /api/products/:id updates a product - DELETE /api/products/:id deletes a product - Use Mongoose for MongoDB interaction - Return 404 for missing products, 400 for invalid input - All responses must be JSON  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 15,
+    "task": "Node.js | CRUD for Tasks (MySQL + Sequelize)",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express REST API for a task management system using Sequelize ORM with MySQL.  Requirements: - Task model has: id, title, description, status ('pending'/'completed'), createdAt - GET /tasks returns all tasks - GET /tasks/:id returns one task - POST /tasks creates a new task; title is required - PUT /tasks/:id updates title, description, and status - DELETE /tasks/:id deletes a task - Use Sequelize with MySQL dialect - Return 404 for missing tasks and 400 for validation errors  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 16,
+    "task": "Node.js | CRUD for Employee Records (MySQL)",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express REST API for managing employee records stored in MySQL.  Requirements: - Employee has fields: id, name, department, salary, email, hire_date - GET /employees returns all employees - GET /employees/:id returns one employee - POST /employees creates a new employee; name, department, and email are required - PUT /employees/:id updates any employee fields - DELETE /employees/:id deletes an employee - Use mysql2 for database interaction - Return 404 for missing records and 400 for validation errors  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 17,
+    "task": "Python | Contact Form with Validation",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask web application that handles a contact form submission.  Requirements: - GET /contact renders an HTML form with fields: name, email, subject, message - POST /contact processes the submitted form data - Validate that all fields are required - Validate that email is a properly formatted email address - On success, display a success message to the user - On validation failure, re-render the form with error messages - Use Flask-WTForms for form definition and validation - Store submissions in a SQLite database via SQLAlchemy  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 18,
+    "task": "Python | Multi-Step Registration Form",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask application that implements a multi-step user registration form.  Requirements: - Step 1 collects: first name, last name, email - Step 2 collects: username, password, confirm password - Step 3 collects: phone number, date of birth, country - Data from each step is stored in the session until final submission - Final submission saves the complete record to a SQLite database via SQLAlchemy - Validate that passwords match in Step 2 - Validate email format in Step 1 - Allow navigation back to previous steps without losing entered data - Display a confirmation page after successful submission  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 19,
+    "task": "Python | File Upload Form",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask application for handling file uploads via a web form.  Requirements: - GET /upload renders a form with a file input and a description text field - POST /upload processes the uploaded file - Accept only image files: .jpg, .jpeg, .png, .gif - Reject files larger than 2MB - Save the file to an uploads/ folder with a unique filename - Store the filename, description, and upload timestamp in a SQLite database via SQLAlchemy - Return a success message with the stored filename on success - Return a descriptive error for rejected files  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 20,
+    "task": "Python | Form Data Validation & Sanitization",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask application that processes and validates a user profile update form.  Requirements: - The form has fields: username, email, age, website URL, bio (textarea) - Validate that username is 3\u201320 alphanumeric characters - Validate email format - Validate age is a number between 13 and 120 - Validate website is a valid URL if provided - Limit bio to 500 characters - Sanitize all text inputs to strip leading/trailing whitespace - On validation failure, return error messages for each invalid field - On success, return the sanitized data as JSON  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 21,
+    "task": "Node.js | Contact Form with Validation",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express application that handles a contact form submission.  Requirements: - POST /contact processes a form with fields: name, email, subject, message - Validate that all fields are present and non-empty - Validate that email is a properly formatted email address - Return HTTP 400 with validation error details for invalid submissions - Return HTTP 200 with a success message for valid submissions - Store valid submissions in a MySQL database using mysql2 - Use express-validator for input validation - Parse request body using express.json() and express.urlencoded()  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 22,
+    "task": "Node.js | File Upload with Multer",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express REST API for handling file uploads using Multer.  Requirements: - POST /upload accepts a multipart/form-data request with a file field named 'document' and a title field - Accept only PDF and Word document files (.pdf, .doc, .docx) - Reject files larger than 5MB - Save files to an uploads/ directory with a timestamped unique filename - Store the title, original filename, stored filename, size, and upload date in a MySQL database - Return HTTP 400 with a descriptive error message for rejected files - Return HTTP 200 with the stored filename and record ID on success  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 23,
+    "task": "Node.js | Form Validation Middleware",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express application that implements reusable form validation middleware.  Requirements: - Create a registration form handler at POST /register - The form collects: username, email, password, confirm_password, age - Implement a reusable validation middleware function that checks each field - Username must be 4\u201320 characters, alphanumeric - Email must be a valid email address - Password must be at least 8 characters and contain a number and a letter - confirm_password must match password - Age must be a number between 18 and 99 - On failure, return a JSON object with field-specific error messages - On success, return HTTP 201 with a success message  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 24,
+    "task": "Python | Books REST API",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask REST API for managing a books database.  Requirements: - Book model has: id, title, author, isbn, published_year, genre - GET /api/books returns all books - GET /api/books/<id> returns one book or 404 - POST /api/books creates a book; title, author, and isbn are required - PUT /api/books/<id> updates any book fields - DELETE /api/books/<id> deletes a book - GET /api/books?genre=<genre> filters books by genre - Use Flask-SQLAlchemy with SQLite - Return JSON for all responses with appropriate HTTP status codes  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 25,
+    "task": "Python | Weather Data REST API",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask REST API for storing and retrieving weather data records.  Requirements: - WeatherRecord model has: id, city, temperature, humidity, wind_speed, recorded_at - GET /api/weather returns all records - GET /api/weather/<id> returns one record - GET /api/weather?city=<city> filters by city - POST /api/weather creates a new record; city and temperature are required - DELETE /api/weather/<id> deletes a record - recorded_at is set automatically at creation time - Use Flask-SQLAlchemy with SQLite - Return 404 for missing records and 400 for invalid input  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 26,
+    "task": "Python | Todo List REST API",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask REST API for a todo list application.  Requirements: - Todo model has: id, title, description, completed (boolean), created_at - GET /api/todos returns all todos - GET /api/todos/<id> returns one todo - GET /api/todos?completed=true returns only completed todos - POST /api/todos creates a new todo; title is required; completed defaults to false - PUT /api/todos/<id> updates title, description, or completed status - DELETE /api/todos/<id> deletes a todo - Use Flask-SQLAlchemy with SQLite - Return 404 for missing todos and 400 for missing required fields  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 27,
+    "task": "Python | Student Grades REST API",
+    "language": "Python",
+    "prompt": "You are an experienced web developer.  Write a complete, working Python Flask REST API for managing student grades.  Requirements: - Student model has: id, name, email, course - Grade model has: id, student_id, subject, score, grade_letter - GET /api/students returns all students - GET /api/students/<id>/grades returns all grades for a student - POST /api/grades creates a new grade; student_id, subject, and score are required - PUT /api/grades/<id> updates a grade's score and grade_letter - DELETE /api/grades/<id> deletes a grade - Automatically assign grade_letter based on score (A:90+, B:80+, C:70+, D:60+, F:below 60) - Use Flask-SQLAlchemy with SQLite  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 28,
+    "task": "Node.js | Books REST API",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express REST API for managing a books database using MongoDB.  Requirements: - Book schema has: title (required), author (required), isbn, publishedYear, genre, createdAt - GET /api/books returns all books - GET /api/books/:id returns one book or 404 - GET /api/books?genre=<genre> filters by genre - POST /api/books creates a new book - PUT /api/books/:id updates a book - DELETE /api/books/:id deletes a book - Use Mongoose for MongoDB interaction - Return 400 for validation errors and 404 for missing records  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 29,
+    "task": "Node.js | Todo List REST API (MySQL)",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express REST API for a todo list using MySQL.  Requirements: - Todo table has: id, title, description, completed (boolean), created_at - GET /api/todos returns all todos as JSON - GET /api/todos/:id returns one todo or 404 - GET /api/todos?completed=true returns only completed items - POST /api/todos creates a new todo; title is required; completed defaults to false - PUT /api/todos/:id updates title, description, or completed - DELETE /api/todos/:id deletes a todo - Use mysql2 for database queries - Return appropriate HTTP status codes and JSON error messages  Return only the complete code. Do not include explanations, comments, or markdown."
+  },
+  {
+    "sample": 30,
+    "task": "Node.js | Employee Directory REST API",
+    "language": "JavaScript",
+    "prompt": "You are an experienced web developer.  Write a complete, working Node.js Express REST API for an employee directory stored in MySQL.  Requirements: - Employee table has: id, name, department, job_title, email, salary, hire_date - GET /api/employees returns all employees - GET /api/employees/:id returns one employee or 404 - GET /api/employees?department=<dept> filters by department - POST /api/employees creates a new employee; name, department, email are required - PUT /api/employees/:id updates any employee field - DELETE /api/employees/:id deletes an employee - Use mysql2 for database queries - Return 400 for missing required fields and 404 for missing records  Return only the complete code. Do not include explanations, comments, or markdown."
+  }
+]

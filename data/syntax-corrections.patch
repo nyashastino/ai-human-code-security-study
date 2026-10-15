@@ -1,0 +1,87 @@
+--- original/sample_06.js
++++ syntax_corrected/sample_06.js
+@@ -86,5 +86,5 @@
+ });
+ const PORT = 3000;
+ app.listen(PORT, () => {
+-console.log(Server running on port ${PORT});
++console.log(`Server running on port ${PORT}`);
+ });--- original/sample_08.js
++++ syntax_corrected/sample_08.js
+@@ -13,8 +13,8 @@
+ });
+ const initDB = async () => {
+ const conn = await pool.getConnection();
+-await conn.query( CREATE TABLE IF NOT EXISTS users ( id INT AUTO_INCREMENT PRIMARY KEY, email VARCHAR(255) UNIQUE NOT NULL, password VARCHAR(255) NOT NULL ) );
+-await conn.query( CREATE TABLE IF NOT EXISTS password_resets ( id INT AUTO_INCREMENT PRIMARY KEY, user_id INT NOT NULL, token VARCHAR(255) UNIQUE NOT NULL, expires_at DATETIME NOT NULL, FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE ) );
++await conn.query( `CREATE TABLE IF NOT EXISTS users ( id INT AUTO_INCREMENT PRIMARY KEY, email VARCHAR(255) UNIQUE NOT NULL, password VARCHAR(255) NOT NULL )` );
++await conn.query( `CREATE TABLE IF NOT EXISTS password_resets ( id INT AUTO_INCREMENT PRIMARY KEY, user_id INT NOT NULL, token VARCHAR(255) UNIQUE NOT NULL, expires_at DATETIME NOT NULL, FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE )` );
+ conn.release();
+ };
+ initDB();
+@@ -93,5 +93,5 @@
+ });
+ const PORT = 3000;
+ app.listen(PORT, () => {
+-console.log(Server running on port ${PORT});
++console.log(`Server running on port ${PORT}`);
+ });--- original/sample_14.js
++++ syntax_corrected/sample_14.js
+@@ -74,5 +74,5 @@
+ });
+ const PORT = 3000;
+ app.listen(PORT, () => {
+-console.log(Server running on port ${PORT});
++console.log(`Server running on port ${PORT}`);
+ });--- original/sample_16.js
++++ syntax_corrected/sample_16.js
+@@ -11,7 +11,7 @@
+ });
+ const initDB = async () => {
+ const conn = await pool.getConnection();
+-await conn.query( CREATE TABLE IF NOT EXISTS employees ( id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255) NOT NULL, department VARCHAR(255) NOT NULL, salary DECIMAL(10,2), email VARCHAR(255) UNIQUE NOT NULL, hire_date DATE ) );
++await conn.query( `CREATE TABLE IF NOT EXISTS employees ( id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255) NOT NULL, department VARCHAR(255) NOT NULL, salary DECIMAL(10,2), email VARCHAR(255) UNIQUE NOT NULL, hire_date DATE )` );
+ conn.release();
+ };
+ initDB();
+@@ -86,5 +86,5 @@
+ });
+ const PORT = 3000;
+ app.listen(PORT, () => {
+-console.log(Server running on port ${PORT});
++console.log(`Server running on port ${PORT}`);
+ });--- original/sample_22.js
++++ syntax_corrected/sample_22.js
+@@ -13,7 +13,7 @@
+ });
+ const initDB = async () => {
+ const conn = await pool.getConnection();
+-await conn.query( CREATE TABLE IF NOT EXISTS uploads ( id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, original_filename VARCHAR(255) NOT NULL, stored_filename VARCHAR(255) NOT NULL, size INT NOT NULL, upload_date DATETIME NOT NULL ) );
++await conn.query( `CREATE TABLE IF NOT EXISTS uploads ( id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, original_filename VARCHAR(255) NOT NULL, stored_filename VARCHAR(255) NOT NULL, size INT NOT NULL, upload_date DATETIME NOT NULL )` );
+ conn.release();
+ };
+ initDB();
+@@ -82,5 +82,5 @@
+ });
+ const PORT = 3000;
+ app.listen(PORT, () => {
+-console.log(Server running on port ${PORT});
++console.log(`Server running on port ${PORT}`);
+ });--- original/sample_29.js
++++ syntax_corrected/sample_29.js
+@@ -11,7 +11,7 @@
+ });
+ const initDB = async () => {
+ const conn = await pool.getConnection();
+-await conn.query( CREATE TABLE IF NOT EXISTS todos ( id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT, completed BOOLEAN DEFAULT FALSE, created_at DATETIME DEFAULT CURRENT_TIMESTAMP ) );
++await conn.query( `CREATE TABLE IF NOT EXISTS todos ( id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT, completed BOOLEAN DEFAULT FALSE, created_at DATETIME DEFAULT CURRENT_TIMESTAMP )` );
+ conn.release();
+ };
+ initDB();
+@@ -91,5 +91,5 @@
+ });
+ const PORT = 3000;
+ app.listen(PORT, () => {
+-console.log(Server running on port ${PORT});
++console.log(`Server running on port ${PORT}`);
+ });

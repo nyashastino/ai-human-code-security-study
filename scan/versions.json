@@ -1,0 +1,22 @@
+{
+  "sonarqube": "26.3.0.120487",
+  "edition": "Community",
+  "scanner_cli": "8.0.1.6346",
+  "analyzers": [
+    {
+      "key": "javascript",
+      "name": "JavaScript/TypeScript/CSS Code Quality and Security",
+      "version": "11.8 (build 37897)",
+      "hash": "1d980d201ac7142a804352bade2082cc"
+    },
+    {
+      "key": "python",
+      "name": "Python Code Quality and Security",
+      "version": "5.18 (build 31561)",
+      "hash": "125ee203d0aa0f0683e331b73e28cd6b"
+    }
+  ],
+  "profile": "Sonar way",
+  "AI_scan_date": "2026-10-12",
+  "Human_scan_date": "2026-10-11"
+}

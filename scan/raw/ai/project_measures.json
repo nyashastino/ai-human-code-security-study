@@ -1,0 +1,59 @@
+{
+  "component": {
+    "key": "comparison-20261012-ai-syntax-corrected",
+    "name": "AI syntax-corrected analysis",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "bugs",
+        "value": "0",
+        "bestValue": true
+      },
+      {
+        "metric": "complexity",
+        "value": "630"
+      },
+      {
+        "metric": "code_smells",
+        "value": "86",
+        "bestValue": false
+      },
+      {
+        "metric": "functions",
+        "value": "216"
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "462",
+        "bestValue": false
+      },
+      {
+        "metric": "ncloc",
+        "value": "3253"
+      },
+      {
+        "metric": "violations",
+        "value": "102",
+        "bestValue": false
+      },
+      {
+        "metric": "files",
+        "value": "30"
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "16",
+        "bestValue": false
+      },
+      {
+        "metric": "lines",
+        "value": "3875"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "60",
+        "bestValue": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.local_auth.json
+.scannerwork/
+data/human-local/
+*.log
+*.zip

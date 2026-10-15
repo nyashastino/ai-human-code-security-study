@@ -1,0 +1,61 @@
+group,sample,task,source_files,code_lines,raw_vulnerabilities,deduplicated_issues,hotspots,debug_hotspots
+AI,1,Python | User Registration & Login (Session-Based),1,126.0,2,1,4,1
+AI,2,Python | JWT Authentication API,1,80.0,2,1,2,1
+AI,3,Python | Role-Based Access Control,1,101.0,2,1,2,1
+AI,4,Python | Password Reset Flow,1,59.0,0,0,2,1
+AI,5,Node.js | User Registration & Login (Session-Based),1,136.0,0,0,1,0
+AI,6,Node.js | JWT Authentication API,1,89.0,2,1,1,0
+AI,7,Node.js | Role-Based Access Control,1,150.0,0,0,4,0
+AI,8,Node.js | Password Reset Flow,1,96.0,0,0,1,0
+AI,9,Python | CRUD for User Records (MySQL),1,191.0,1,1,2,1
+AI,10,Python | CRUD for Product Inventory (SQLAlchemy),1,74.0,0,0,2,1
+AI,11,Python | CRUD for Student Records,1,301.0,1,1,2,1
+AI,12,Python | CRUD for Blog Posts,1,70.0,0,0,2,1
+AI,13,Node.js | CRUD for User Records (MySQL),1,141.0,0,0,1,0
+AI,14,Node.js | CRUD for Products (MongoDB),1,77.0,0,0,1,0
+AI,15,Node.js | CRUD for Tasks (MySQL + Sequelize),1,164.0,0,0,1,0
+AI,16,Node.js | CRUD for Employee Records (MySQL),1,89.0,0,0,1,0
+AI,17,Python | Contact Form with Validation,1,114.0,1,1,3,1
+AI,18,Python | Multi-Step Registration Form,1,102.0,2,1,5,1
+AI,19,Python | File Upload Form,1,119.0,1,1,3,1
+AI,20,Python | Form Data Validation & Sanitization,1,50.0,0,0,3,1
+AI,21,Node.js | Contact Form with Validation,1,115.0,0,0,1,0
+AI,22,Node.js | File Upload with Multer,1,81.0,0,0,2,0
+AI,23,Node.js | Form Validation Middleware,1,100.0,0,0,2,0
+AI,24,Python | Books REST API,1,123.0,1,1,2,1
+AI,25,Python | Weather Data REST API,1,63.0,0,0,2,1
+AI,26,Python | Todo List REST API,1,107.0,1,1,2,1
+AI,27,Python | Student Grades REST API,1,98.0,0,0,2,1
+AI,28,Node.js | Books REST API,1,70.0,0,0,1,0
+AI,29,Node.js | Todo List REST API (MySQL),1,94.0,0,0,1,0
+AI,30,Node.js | Employee Directory REST API,1,73.0,0,0,2,0
+Human,1,Python | User Registration & Login (Session-Based),4,79.0,2,1,1,0
+Human,2,Python | JWT Authentication API,6,317.0,1,1,2,0
+Human,3,Python | Role-Based Access Control,1,108.0,3,2,2,1
+Human,4,Python | Password Reset Flow,6,177.0,0,0,5,0
+Human,5,Node.js | User Registration & Login (Session-Based),17,310.0,0,0,3,0
+Human,6,Node.js | JWT Authentication API,7,176.0,0,0,2,0
+Human,7,Node.js | Role-Based Access Control,13,385.0,0,0,0,0
+Human,8,Node.js | Password Reset Flow,5,248.0,0,0,2,0
+Human,9,Python | CRUD for User Records (MySQL),3,125.0,0,0,2,0
+Human,10,Python | CRUD for Product Inventory (SQLAlchemy),1,66.0,0,0,2,1
+Human,11,Python | CRUD for Student Records,1,52.0,1,1,3,1
+Human,12,Python | CRUD for Blog Posts,14,259.0,0,0,1,0
+Human,13,Node.js | CRUD for User Records (MySQL),6,155.0,0,0,3,0
+Human,14,Node.js | CRUD for Products (MongoDB),8,125.0,0,0,2,0
+Human,15,Node.js | CRUD for Tasks (MySQL + Sequelize),47,878.0,0,0,1,0
+Human,16,Node.js | CRUD for Employee Records (MySQL),3,92.0,0,0,2,0
+Human,17,Python | Contact Form with Validation,1,31.0,0,0,1,0
+Human,18,Python | Multi-Step Registration Form,3,128.0,1,1,2,1
+Human,19,Python | File Upload Form,7,125.0,0,0,2,0
+Human,20,Python | Form Data Validation & Sanitization,1,39.0,1,1,2,0
+Human,21,Node.js | Contact Form with Validation,3,93.0,0,0,4,0
+Human,22,Node.js | File Upload with Multer,5,83.0,0,0,2,0
+Human,23,Node.js | Form Validation Middleware,20,379.0,0,0,1,0
+Human,24,Python | Books REST API,1,71.0,0,0,2,1
+Human,25,Python | Weather Data REST API,18,1462.0,0,0,1,0
+Human,26,Python | Todo List REST API,1,63.0,0,0,3,1
+Human,27,Python | Student Grades REST API,11,886.0,0,0,1,0
+Human,28,Node.js | Books REST API,3,186.0,0,0,1,0
+Human,29,Node.js | Todo List REST API (MySQL),4,96.0,0,0,0,0
+Human,30,Node.js | Employee Directory REST API,5,146.0,0,0,1,0

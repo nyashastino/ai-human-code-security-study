@@ -1,0 +1,23 @@
+{
+  "ai_findings": 16,
+  "human_findings": 9,
+  "ai_hotspots": 60,
+  "human_hotspots": 56,
+  "u_ai": 526.5,
+  "u_min": 373.5,
+  "p_two_sided": 0.1557163345154959,
+  "mean_difference": 0.23333333333333334,
+  "mean_difference_ci95": [
+    -0.13333333333333336,
+    0.6
+  ],
+  "cliffs_delta": 0.17,
+  "cliffs_delta_ci95": [
+    -0.06002777777777775,
+    0.39336111111110866
+  ],
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 20261011,
+  "test": "Two-sided asymptotic Mann\u2013Whitney U, with tie and continuity corrections; raw finding counts",
+  "deduplication": "Same underlying secret assignment merged across rules/usages; other locations remain distinct"
+}

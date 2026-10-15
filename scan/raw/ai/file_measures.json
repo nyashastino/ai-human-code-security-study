@@ -1,0 +1,1472 @@
+[
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_01.py",
+    "name": "sample_01.py",
+    "qualifier": "FIL",
+    "path": "sample_01.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "12",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "14"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "5"
+      },
+      {
+        "metric": "lines",
+        "value": "156"
+      },
+      {
+        "metric": "ncloc",
+        "value": "126"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "4",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "5",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "2",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_02.py",
+    "name": "sample_02.py",
+    "qualifier": "FIL",
+    "path": "sample_02.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "14",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "18"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "5"
+      },
+      {
+        "metric": "lines",
+        "value": "96"
+      },
+      {
+        "metric": "ncloc",
+        "value": "80"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "4",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "2",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_03.py",
+    "name": "sample_03.py",
+    "qualifier": "FIL",
+    "path": "sample_03.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "cognitive_complexity",
+        "value": "15",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "26"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "13"
+      },
+      {
+        "metric": "lines",
+        "value": "140"
+      },
+      {
+        "metric": "ncloc",
+        "value": "101"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "2",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_04.py",
+    "name": "sample_04.py",
+    "qualifier": "FIL",
+    "path": "sample_04.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "9",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "12"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "3"
+      },
+      {
+        "metric": "lines",
+        "value": "77"
+      },
+      {
+        "metric": "ncloc",
+        "value": "59"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "3",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_05.js",
+    "name": "sample_05.js",
+    "qualifier": "FIL",
+    "path": "sample_05.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "4",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "12",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "27"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "9"
+      },
+      {
+        "metric": "lines",
+        "value": "169"
+      },
+      {
+        "metric": "ncloc",
+        "value": "136"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "4",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_06.js",
+    "name": "sample_06.js",
+    "qualifier": "FIL",
+    "path": "sample_06.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "4",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "10",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "16"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "5"
+      },
+      {
+        "metric": "lines",
+        "value": "90"
+      },
+      {
+        "metric": "ncloc",
+        "value": "89"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "6",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "2",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_07.js",
+    "name": "sample_07.js",
+    "qualifier": "FIL",
+    "path": "sample_07.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "12",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "27"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "11"
+      },
+      {
+        "metric": "lines",
+        "value": "178"
+      },
+      {
+        "metric": "ncloc",
+        "value": "150"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "4",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "3",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_08.js",
+    "name": "sample_08.js",
+    "qualifier": "FIL",
+    "path": "sample_08.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "4",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "10",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "12"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "5"
+      },
+      {
+        "metric": "lines",
+        "value": "97"
+      },
+      {
+        "metric": "ncloc",
+        "value": "96"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "4",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_09.py",
+    "name": "sample_09.py",
+    "qualifier": "FIL",
+    "path": "sample_09.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "43",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "43"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "9"
+      },
+      {
+        "metric": "lines",
+        "value": "232"
+      },
+      {
+        "metric": "ncloc",
+        "value": "191"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "1",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_10.py",
+    "name": "sample_10.py",
+    "qualifier": "FIL",
+    "path": "sample_10.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "11",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "19"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "6"
+      },
+      {
+        "metric": "lines",
+        "value": "94"
+      },
+      {
+        "metric": "ncloc",
+        "value": "74"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "1",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+    "name": "sample_11.py",
+    "qualifier": "FIL",
+    "path": "sample_11.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "5",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "12",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "23"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "12"
+      },
+      {
+        "metric": "lines",
+        "value": "345"
+      },
+      {
+        "metric": "ncloc",
+        "value": "301"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "6",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "1",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_12.py",
+    "name": "sample_12.py",
+    "qualifier": "FIL",
+    "path": "sample_12.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "9",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "17"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "6"
+      },
+      {
+        "metric": "lines",
+        "value": "90"
+      },
+      {
+        "metric": "ncloc",
+        "value": "70"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "1",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_13.js",
+    "name": "sample_13.js",
+    "qualifier": "FIL",
+    "path": "sample_13.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "6",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "24",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "40"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "9"
+      },
+      {
+        "metric": "lines",
+        "value": "171"
+      },
+      {
+        "metric": "ncloc",
+        "value": "141"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "6",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_14.js",
+    "name": "sample_14.js",
+    "qualifier": "FIL",
+    "path": "sample_14.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "4",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "12",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "15"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "6"
+      },
+      {
+        "metric": "lines",
+        "value": "78"
+      },
+      {
+        "metric": "ncloc",
+        "value": "77"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "4",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_15.js",
+    "name": "sample_15.js",
+    "qualifier": "FIL",
+    "path": "sample_15.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "4",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "31",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "41"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "8"
+      },
+      {
+        "metric": "lines",
+        "value": "192"
+      },
+      {
+        "metric": "ncloc",
+        "value": "164"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "4",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_16.js",
+    "name": "sample_16.js",
+    "qualifier": "FIL",
+    "path": "sample_16.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "10",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "14",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "20"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "7"
+      },
+      {
+        "metric": "lines",
+        "value": "90"
+      },
+      {
+        "metric": "ncloc",
+        "value": "89"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "10",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_17.py",
+    "name": "sample_17.py",
+    "qualifier": "FIL",
+    "path": "sample_17.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "cognitive_complexity",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "3"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "1"
+      },
+      {
+        "metric": "lines",
+        "value": "131"
+      },
+      {
+        "metric": "ncloc",
+        "value": "114"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "1",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_18.py",
+    "name": "sample_18.py",
+    "qualifier": "FIL",
+    "path": "sample_18.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "12",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "11"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "5"
+      },
+      {
+        "metric": "lines",
+        "value": "122"
+      },
+      {
+        "metric": "ncloc",
+        "value": "102"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "5",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "5",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "2",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_19.py",
+    "name": "sample_19.py",
+    "qualifier": "FIL",
+    "path": "sample_19.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "cognitive_complexity",
+        "value": "8",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "11"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "3"
+      },
+      {
+        "metric": "lines",
+        "value": "145"
+      },
+      {
+        "metric": "ncloc",
+        "value": "119"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "1",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+    "name": "sample_20.py",
+    "qualifier": "FIL",
+    "path": "sample_20.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "4",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "18",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "19"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "4"
+      },
+      {
+        "metric": "lines",
+        "value": "71"
+      },
+      {
+        "metric": "ncloc",
+        "value": "50"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "4",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_21.js",
+    "name": "sample_21.js",
+    "qualifier": "FIL",
+    "path": "sample_21.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "10"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "4"
+      },
+      {
+        "metric": "lines",
+        "value": "131"
+      },
+      {
+        "metric": "ncloc",
+        "value": "115"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "2",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_22.js",
+    "name": "sample_22.js",
+    "qualifier": "FIL",
+    "path": "sample_22.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "9",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "14"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "7"
+      },
+      {
+        "metric": "lines",
+        "value": "86"
+      },
+      {
+        "metric": "ncloc",
+        "value": "81"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "3",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+    "name": "sample_23.js",
+    "qualifier": "FIL",
+    "path": "sample_23.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "6",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "20",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "40"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "16"
+      },
+      {
+        "metric": "lines",
+        "value": "113"
+      },
+      {
+        "metric": "ncloc",
+        "value": "100"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "6",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+    "name": "sample_24.py",
+    "qualifier": "FIL",
+    "path": "sample_24.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "46",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "33"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "11"
+      },
+      {
+        "metric": "lines",
+        "value": "164"
+      },
+      {
+        "metric": "ncloc",
+        "value": "123"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "3",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "1",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_25.py",
+    "name": "sample_25.py",
+    "qualifier": "FIL",
+    "path": "sample_25.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "cognitive_complexity",
+        "value": "7",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "12"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "5"
+      },
+      {
+        "metric": "lines",
+        "value": "81"
+      },
+      {
+        "metric": "ncloc",
+        "value": "63"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_26.py",
+    "name": "sample_26.py",
+    "qualifier": "FIL",
+    "path": "sample_26.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "30",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "31"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "7"
+      },
+      {
+        "metric": "lines",
+        "value": "144"
+      },
+      {
+        "metric": "ncloc",
+        "value": "107"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "2",
+        "bestValue": false
+      },
+      {
+        "metric": "vulnerabilities",
+        "value": "1",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_27.py",
+    "name": "sample_27.py",
+    "qualifier": "FIL",
+    "path": "sample_27.py",
+    "language": "py",
+    "measures": [
+      {
+        "metric": "cognitive_complexity",
+        "value": "14",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "20"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "8"
+      },
+      {
+        "metric": "lines",
+        "value": "124"
+      },
+      {
+        "metric": "ncloc",
+        "value": "98"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_28.js",
+    "name": "sample_28.js",
+    "qualifier": "FIL",
+    "path": "sample_28.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "cognitive_complexity",
+        "value": "13",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "12"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "6"
+      },
+      {
+        "metric": "lines",
+        "value": "81"
+      },
+      {
+        "metric": "ncloc",
+        "value": "70"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "1",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_29.js",
+    "name": "sample_29.js",
+    "qualifier": "FIL",
+    "path": "sample_29.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "code_smells",
+        "value": "9",
+        "bestValue": false
+      },
+      {
+        "metric": "cognitive_complexity",
+        "value": "14",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "17"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "7"
+      },
+      {
+        "metric": "lines",
+        "value": "95"
+      },
+      {
+        "metric": "ncloc",
+        "value": "94"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "1",
+        "bestValue": false
+      },
+      {
+        "metric": "violations",
+        "value": "9",
+        "bestValue": false
+      }
+    ]
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_30.js",
+    "name": "sample_30.js",
+    "qualifier": "FIL",
+    "path": "sample_30.js",
+    "language": "js",
+    "measures": [
+      {
+        "metric": "cognitive_complexity",
+        "value": "16",
+        "bestValue": false
+      },
+      {
+        "metric": "complexity",
+        "value": "27"
+      },
+      {
+        "metric": "files",
+        "value": "1"
+      },
+      {
+        "metric": "functions",
+        "value": "13"
+      },
+      {
+        "metric": "lines",
+        "value": "92"
+      },
+      {
+        "metric": "ncloc",
+        "value": "73"
+      },
+      {
+        "metric": "security_hotspots",
+        "value": "2",
+        "bestValue": false
+      }
+    ]
+  }
+]

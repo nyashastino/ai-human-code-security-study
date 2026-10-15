@@ -1,0 +1,79 @@
+[
+  {
+    "sample_id": 6,
+    "line": 89,
+    "before": "console.log(Server running on port ${PORT});",
+    "after": "console.log(`Server running on port ${PORT}`);",
+    "change": "Added string delimiters only"
+  },
+  {
+    "sample_id": 8,
+    "line": 16,
+    "before": "await conn.query( CREATE TABLE IF NOT EXISTS users ( id INT AUTO_INCREMENT PRIMARY KEY, email VARCHAR(255) UNIQUE NOT NULL, password VARCHAR(255) NOT NULL ) );",
+    "after": "await conn.query( `CREATE TABLE IF NOT EXISTS users ( id INT AUTO_INCREMENT PRIMARY KEY, email VARCHAR(255) UNIQUE NOT NULL, password VARCHAR(255) NOT NULL )` );",
+    "change": "Added string delimiters only"
+  },
+  {
+    "sample_id": 8,
+    "line": 17,
+    "before": "await conn.query( CREATE TABLE IF NOT EXISTS password_resets ( id INT AUTO_INCREMENT PRIMARY KEY, user_id INT NOT NULL, token VARCHAR(255) UNIQUE NOT NULL, expires_at DATETIME NOT NULL, FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE ) );",
+    "after": "await conn.query( `CREATE TABLE IF NOT EXISTS password_resets ( id INT AUTO_INCREMENT PRIMARY KEY, user_id INT NOT NULL, token VARCHAR(255) UNIQUE NOT NULL, expires_at DATETIME NOT NULL, FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE )` );",
+    "change": "Added string delimiters only"
+  },
+  {
+    "sample_id": 8,
+    "line": 96,
+    "before": "console.log(Server running on port ${PORT});",
+    "after": "console.log(`Server running on port ${PORT}`);",
+    "change": "Added string delimiters only"
+  },
+  {
+    "sample_id": 14,
+    "line": 77,
+    "before": "console.log(Server running on port ${PORT});",
+    "after": "console.log(`Server running on port ${PORT}`);",
+    "change": "Added string delimiters only"
+  },
+  {
+    "sample_id": 16,
+    "line": 14,
+    "before": "await conn.query( CREATE TABLE IF NOT EXISTS employees ( id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255) NOT NULL, department VARCHAR(255) NOT NULL, salary DECIMAL(10,2), email VARCHAR(255) UNIQUE NOT NULL, hire_date DATE ) );",
+    "after": "await conn.query( `CREATE TABLE IF NOT EXISTS employees ( id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255) NOT NULL, department VARCHAR(255) NOT NULL, salary DECIMAL(10,2), email VARCHAR(255) UNIQUE NOT NULL, hire_date DATE )` );",
+    "change": "Added string delimiters only"
+  },
+  {
+    "sample_id": 16,
+    "line": 89,
+    "before": "console.log(Server running on port ${PORT});",
+    "after": "console.log(`Server running on port ${PORT}`);",
+    "change": "Added string delimiters only"
+  },
+  {
+    "sample_id": 22,
+    "line": 16,
+    "before": "await conn.query( CREATE TABLE IF NOT EXISTS uploads ( id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, original_filename VARCHAR(255) NOT NULL, stored_filename VARCHAR(255) NOT NULL, size INT NOT NULL, upload_date DATETIME NOT NULL ) );",
+    "after": "await conn.query( `CREATE TABLE IF NOT EXISTS uploads ( id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, original_filename VARCHAR(255) NOT NULL, stored_filename VARCHAR(255) NOT NULL, size INT NOT NULL, upload_date DATETIME NOT NULL )` );",
+    "change": "Added string delimiters only"
+  },
+  {
+    "sample_id": 22,
+    "line": 85,
+    "before": "console.log(Server running on port ${PORT});",
+    "after": "console.log(`Server running on port ${PORT}`);",
+    "change": "Added string delimiters only"
+  },
+  {
+    "sample_id": 29,
+    "line": 14,
+    "before": "await conn.query( CREATE TABLE IF NOT EXISTS todos ( id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT, completed BOOLEAN DEFAULT FALSE, created_at DATETIME DEFAULT CURRENT_TIMESTAMP ) );",
+    "after": "await conn.query( `CREATE TABLE IF NOT EXISTS todos ( id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT, completed BOOLEAN DEFAULT FALSE, created_at DATETIME DEFAULT CURRENT_TIMESTAMP )` );",
+    "change": "Added string delimiters only"
+  },
+  {
+    "sample_id": 29,
+    "line": 94,
+    "before": "console.log(Server running on port ${PORT});",
+    "after": "console.log(`Server running on port ${PORT}`);",
+    "change": "Added string delimiters only"
+  }
+]

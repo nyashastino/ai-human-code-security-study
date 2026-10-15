@@ -1,0 +1,1577 @@
+[
+  {
+    "key": "comparison-20261011-human:sample_02/project/server/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_02/project/server/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_02/project/server/auth/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_02/project/server/auth/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/weather_data_flaskapi/endpoints/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/weather_data_flaskapi/endpoints/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/weather_data_flaskapi/business/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/weather_data_flaskapi/business/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/weather_data_flaskapi/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/weather_data_flaskapi/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/database/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_25/database/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_27/api/models/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_27/api/models/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_27/api/utils/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_27/api/utils/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_27/api/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_27/api/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_19/app/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_19/app/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_11/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_11/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/api/blog/endpoints/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/api/blog/endpoints/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/api/blog/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/api/blog/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/api/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/api/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/database/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/database/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_01/project/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_01/project/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_04/app/__init__.py",
+    "name": "__init__.py",
+    "qualifier": "FIL",
+    "path": "sample_04/app/__init__.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/config/apiConfiguration.js",
+    "name": "apiConfiguration.js",
+    "qualifier": "FIL",
+    "path": "sample_15/config/apiConfiguration.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/app.js",
+    "name": "app.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/app.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/app.js",
+    "name": "app.js",
+    "qualifier": "FIL",
+    "path": "sample_15/app.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/app.js",
+    "name": "app.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/app.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_29/app.js",
+    "name": "app.js",
+    "qualifier": "FIL",
+    "path": "sample_29/app.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_08/app.js",
+    "name": "app.js",
+    "qualifier": "FIL",
+    "path": "sample_08/app.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_22/app.js",
+    "name": "app.js",
+    "qualifier": "FIL",
+    "path": "sample_22/app.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_14/src/app.js",
+    "name": "app.js",
+    "qualifier": "FIL",
+    "path": "sample_14/src/app.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_18/static/js/app.js",
+    "name": "app.js",
+    "qualifier": "FIL",
+    "path": "sample_18/static/js/app.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_28/app.js",
+    "name": "app.js",
+    "qualifier": "FIL",
+    "path": "sample_28/app.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_20/app.py",
+    "name": "app.py",
+    "qualifier": "FIL",
+    "path": "sample_20/app.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_26/app.py",
+    "name": "app.py",
+    "qualifier": "FIL",
+    "path": "sample_26/app.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_24/app.py",
+    "name": "app.py",
+    "qualifier": "FIL",
+    "path": "sample_24/app.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/app.py",
+    "name": "app.py",
+    "qualifier": "FIL",
+    "path": "sample_25/app.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_09/app.py",
+    "name": "app.py",
+    "qualifier": "FIL",
+    "path": "sample_09/app.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/app.py",
+    "name": "app.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/app.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_18/app.py",
+    "name": "app.py",
+    "qualifier": "FIL",
+    "path": "sample_18/app.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_17/app.py",
+    "name": "app.py",
+    "qualifier": "FIL",
+    "path": "sample_17/app.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_10/app.py",
+    "name": "app.py",
+    "qualifier": "FIL",
+    "path": "sample_10/app.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/utilities/asyncHandler.js",
+    "name": "asyncHandler.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/utilities/asyncHandler.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/app/config/auth.config.js",
+    "name": "auth.config.js",
+    "qualifier": "FIL",
+    "path": "sample_07/app/config/auth.config.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/controllers/auth.controller.js",
+    "name": "auth.controller.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/controllers/auth.controller.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/app/controllers/auth.controller.js",
+    "name": "auth.controller.js",
+    "qualifier": "FIL",
+    "path": "sample_07/app/controllers/auth.controller.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/lib/auth.js",
+    "name": "auth.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/lib/auth.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_08/controllers/auth.js",
+    "name": "auth.js",
+    "qualifier": "FIL",
+    "path": "sample_08/controllers/auth.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_08/middlewares/auth.js",
+    "name": "auth.js",
+    "qualifier": "FIL",
+    "path": "sample_08/middlewares/auth.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_01/project/auth.py",
+    "name": "auth.py",
+    "qualifier": "FIL",
+    "path": "sample_01/project/auth.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/routes/auth.routes.js",
+    "name": "auth.routes.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/routes/auth.routes.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/app/routes/auth.routes.js",
+    "name": "auth.routes.js",
+    "qualifier": "FIL",
+    "path": "sample_07/app/routes/auth.routes.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/app/middlewares/authJwt.js",
+    "name": "authJwt.js",
+    "qualifier": "FIL",
+    "path": "sample_07/app/middlewares/authJwt.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_03/example/basic.py",
+    "name": "basic.py",
+    "qualifier": "FIL",
+    "path": "sample_03/example/basic.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_28/models/book.js",
+    "name": "book.js",
+    "qualifier": "FIL",
+    "path": "sample_28/models/book.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/api/blog/business.py",
+    "name": "business.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/api/blog/business.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/api/blog/endpoints/categories.py",
+    "name": "categories.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/api/blog/endpoints/categories.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/config/config.js",
+    "name": "config.js",
+    "qualifier": "FIL",
+    "path": "sample_15/config/config.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/config.js",
+    "name": "config.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/config.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_02/project/server/config.py",
+    "name": "config.py",
+    "qualifier": "FIL",
+    "path": "sample_02/project/server/config.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/config.py",
+    "name": "config.py",
+    "qualifier": "FIL",
+    "path": "sample_25/config.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_27/api/config/config.py",
+    "name": "config.py",
+    "qualifier": "FIL",
+    "path": "sample_27/api/config/config.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_19/config.py",
+    "name": "config.py",
+    "qualifier": "FIL",
+    "path": "sample_19/config.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_04/config.py",
+    "name": "config.py",
+    "qualifier": "FIL",
+    "path": "sample_04/config.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_29/connection.js",
+    "name": "connection.js",
+    "qualifier": "FIL",
+    "path": "sample_29/connection.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_27/api/models/courses.py",
+    "name": "courses.py",
+    "qualifier": "FIL",
+    "path": "sample_27/api/models/courses.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/tags/createOneTag.js",
+    "name": "createOneTag.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/tags/createOneTag.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/taskLists/createOneTaskList.js",
+    "name": "createOneTaskList.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/taskLists/createOneTaskList.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/tasks/createTask.js",
+    "name": "createTask.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/tasks/createTask.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/tasks/createTask.js",
+    "name": "createTask.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/tasks/createTask.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/taskLists/createTaskList.js",
+    "name": "createTaskList.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/taskLists/createTaskList.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/taskTags/createTaskTag.js",
+    "name": "createTaskTag.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/taskTags/createTaskTag.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/routes/examples/customMiddleware.js",
+    "name": "customMiddleware.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/routes/examples/customMiddleware.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/routes/examples/customMiddleware2.js",
+    "name": "customMiddleware2.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/routes/examples/customMiddleware2.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/routes/examples/customMiddleware3.js",
+    "name": "customMiddleware3.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/routes/examples/customMiddleware3.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/database.js",
+    "name": "database.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/database.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_16/src/database.js",
+    "name": "database.js",
+    "qualifier": "FIL",
+    "path": "sample_16/src/database.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_18/database.py",
+    "name": "database.py",
+    "qualifier": "FIL",
+    "path": "sample_18/database.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/weather_data_flaskapi/date_range_arguments.py",
+    "name": "date_range_arguments.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/weather_data_flaskapi/date_range_arguments.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/weather_data_flaskapi/date_range_pagination_arguments.py",
+    "name": "date_range_pagination_arguments.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/weather_data_flaskapi/date_range_pagination_arguments.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/app/config/db.config.js",
+    "name": "db.config.js",
+    "qualifier": "FIL",
+    "path": "sample_07/app/config/db.config.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_13/_helpers/db.js",
+    "name": "db.js",
+    "qualifier": "FIL",
+    "path": "sample_13/_helpers/db.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_06/_helpers/db.js",
+    "name": "db.js",
+    "qualifier": "FIL",
+    "path": "sample_06/_helpers/db.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_14/src/config/db.js",
+    "name": "db.js",
+    "qualifier": "FIL",
+    "path": "sample_14/src/config/db.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_09/db.py",
+    "name": "db.py",
+    "qualifier": "FIL",
+    "path": "sample_09/db.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_22/dbconnection.js",
+    "name": "dbconnection.js",
+    "qualifier": "FIL",
+    "path": "sample_22/dbconnection.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_27/api/utils/decorators.py",
+    "name": "decorators.py",
+    "qualifier": "FIL",
+    "path": "sample_27/api/utils/decorators.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/tags/deleteOneTag.js",
+    "name": "deleteOneTag.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/tags/deleteOneTag.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/taskLists/deleteOneTaskList.js",
+    "name": "deleteOneTaskList.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/taskLists/deleteOneTaskList.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/taskLists/deleteOneTaskList.js",
+    "name": "deleteOneTaskList.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/taskLists/deleteOneTaskList.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/tags/deleteTag.js",
+    "name": "deleteTag.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/tags/deleteTag.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/tasks/deleteTask.js",
+    "name": "deleteTask.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/tasks/deleteTask.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/tasks/deleteTask.js",
+    "name": "deleteTask.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/tasks/deleteTask.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/taskTags/deleteTaskTag.js",
+    "name": "deleteTaskTag.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/taskTags/deleteTaskTag.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_04/app/email.py",
+    "name": "email.py",
+    "qualifier": "FIL",
+    "path": "sample_04/app/email.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_30/src/controllers/employee.controller.js",
+    "name": "employee.controller.js",
+    "qualifier": "FIL",
+    "path": "sample_30/src/controllers/employee.controller.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_30/src/routes/employee.route.js",
+    "name": "employee.route.js",
+    "qualifier": "FIL",
+    "path": "sample_30/src/routes/employee.route.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_16/src/routes/employees.js",
+    "name": "employees.js",
+    "qualifier": "FIL",
+    "path": "sample_16/src/routes/employees.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_06/_helpers/error-handler.js",
+    "name": "error-handler.js",
+    "qualifier": "FIL",
+    "path": "sample_06/_helpers/error-handler.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/middleware/errorHandler.js",
+    "name": "errorHandler.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/middleware/errorHandler.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_14/src/utils/errorHandler.js",
+    "name": "errorHandler.js",
+    "qualifier": "FIL",
+    "path": "sample_14/src/utils/errorHandler.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/utilities/errorResponse.js",
+    "name": "errorResponse.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/utilities/errorResponse.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_19/app/errors.py",
+    "name": "errors.py",
+    "qualifier": "FIL",
+    "path": "sample_19/app/errors.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/constants/events.js",
+    "name": "events.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/constants/events.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/validations/example.js",
+    "name": "example.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/validations/example.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_19/file_upload.py",
+    "name": "file_upload.py",
+    "qualifier": "FIL",
+    "path": "sample_19/file_upload.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_19/app/forms.py",
+    "name": "forms.py",
+    "qualifier": "FIL",
+    "path": "sample_19/app/forms.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/constants/games.js",
+    "name": "games.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/constants/games.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_28/models/genre.js",
+    "name": "genre.js",
+    "qualifier": "FIL",
+    "path": "sample_28/models/genre.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/tags/getAllTags.js",
+    "name": "getAllTags.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/tags/getAllTags.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/tags/getAllTags.js",
+    "name": "getAllTags.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/tags/getAllTags.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/taskLists/getAllTaskLists.js",
+    "name": "getAllTaskLists.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/taskLists/getAllTaskLists.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/taskLists/getAllTaskLists.js",
+    "name": "getAllTaskLists.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/taskLists/getAllTaskLists.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/tasks/getAllTasks.js",
+    "name": "getAllTasks.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/tasks/getAllTasks.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/taskTags/getAllTaskTags.js",
+    "name": "getAllTaskTags.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/taskTags/getAllTaskTags.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/tags/getOneTag.js",
+    "name": "getOneTag.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/tags/getOneTag.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/tasks/getOneTask.js",
+    "name": "getOneTask.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/tasks/getOneTask.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/taskLists/getOneTaskList.js",
+    "name": "getOneTaskList.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/taskLists/getOneTaskList.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/taskLists/getOneTaskList.js",
+    "name": "getOneTaskList.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/taskLists/getOneTaskList.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/taskTags/getOneTaskTag.js",
+    "name": "getOneTaskTag.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/taskTags/getOneTaskTag.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/tasks/getTasksFromTaskList.js",
+    "name": "getTasksFromTaskList.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/tasks/getTasksFromTaskList.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_27/api/utils/grades.py",
+    "name": "grades.py",
+    "qualifier": "FIL",
+    "path": "sample_27/api/utils/grades.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/lib/handlebars.js",
+    "name": "handlebars.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/lib/handlebars.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/lib/helpers.js",
+    "name": "helpers.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/lib/helpers.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/controllers/index.conroller.js",
+    "name": "index.conroller.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/controllers/index.conroller.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/utilities/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/utilities/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/constants/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/constants/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/routes/examples/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/routes/examples/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/middleware/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/middleware/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/models/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_15/models/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/routes/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/routes/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/app/models/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_07/app/models/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/app/middlewares/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_07/app/middlewares/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_30/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_30/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_08/routes/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_08/routes/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_22/routes/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_22/routes/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_16/src/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_16/src/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_21/index.js",
+    "name": "index.js",
+    "qualifier": "FIL",
+    "path": "sample_21/index.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/routes/index.routes.js",
+    "name": "index.routes.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/routes/index.routes.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/routes/examples/inline.js",
+    "name": "inline.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/routes/examples/inline.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_06/_helpers/jwt.js",
+    "name": "jwt.js",
+    "qualifier": "FIL",
+    "path": "sample_06/_helpers/jwt.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_30/knex/knex.js",
+    "name": "knex.js",
+    "qualifier": "FIL",
+    "path": "sample_30/knex/knex.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_30/knexfile.js",
+    "name": "knexfile.js",
+    "qualifier": "FIL",
+    "path": "sample_30/knexfile.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/controllers/links.controller.js",
+    "name": "links.controller.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/controllers/links.controller.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/routes/links.routes.js",
+    "name": "links.routes.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/routes/links.routes.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_21/_private/local_sql.js",
+    "name": "local_sql.js",
+    "qualifier": "FIL",
+    "path": "sample_21/_private/local_sql.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/helpers/logger.js",
+    "name": "logger.js",
+    "qualifier": "FIL",
+    "path": "sample_15/helpers/logger.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_09/main.py",
+    "name": "main.py",
+    "qualifier": "FIL",
+    "path": "sample_09/main.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_01/project/main.py",
+    "name": "main.py",
+    "qualifier": "FIL",
+    "path": "sample_01/project/main.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_02/manage.py",
+    "name": "manage.py",
+    "qualifier": "FIL",
+    "path": "sample_02/manage.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_04/manage.py",
+    "name": "manage.py",
+    "qualifier": "FIL",
+    "path": "sample_04/manage.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/database/model_exceptions.py",
+    "name": "model_exceptions.py",
+    "qualifier": "FIL",
+    "path": "sample_25/database/model_exceptions.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_02/project/server/models.py",
+    "name": "models.py",
+    "qualifier": "FIL",
+    "path": "sample_02/project/server/models.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/database/models.py",
+    "name": "models.py",
+    "qualifier": "FIL",
+    "path": "sample_25/database/models.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_19/app/models.py",
+    "name": "models.py",
+    "qualifier": "FIL",
+    "path": "sample_19/app/models.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/database/models.py",
+    "name": "models.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/database/models.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_01/project/models.py",
+    "name": "models.py",
+    "qualifier": "FIL",
+    "path": "sample_01/project/models.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_04/app/models.py",
+    "name": "models.py",
+    "qualifier": "FIL",
+    "path": "sample_04/app/models.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/weather_data_flaskapi/pagination_arguments.py",
+    "name": "pagination_arguments.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/weather_data_flaskapi/pagination_arguments.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/api/blog/parsers.py",
+    "name": "parsers.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/api/blog/parsers.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/lib/passport.js",
+    "name": "passport.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/lib/passport.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/api/blog/endpoints/posts.py",
+    "name": "posts.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/api/blog/endpoints/posts.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_14/src/controllers/productController.js",
+    "name": "productController.js",
+    "qualifier": "FIL",
+    "path": "sample_14/src/controllers/productController.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_14/src/models/productModel.js",
+    "name": "productModel.js",
+    "qualifier": "FIL",
+    "path": "sample_14/src/models/productModel.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_14/src/routes/productRoutes.js",
+    "name": "productRoutes.js",
+    "qualifier": "FIL",
+    "path": "sample_14/src/routes/productRoutes.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_14/src/services/productService.js",
+    "name": "productService.js",
+    "qualifier": "FIL",
+    "path": "sample_14/src/services/productService.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/weather_data_flaskapi/endpoints/protected_endpoint.py",
+    "name": "protected_endpoint.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/weather_data_flaskapi/endpoints/protected_endpoint.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/weather_data_flaskapi/endpoints/public_endpoint.py",
+    "name": "public_endpoint.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/weather_data_flaskapi/endpoints/public_endpoint.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/restplus.py",
+    "name": "restplus.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/restplus.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/api/restplus.py",
+    "name": "restplus.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/api/restplus.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_13/_helpers/role.js",
+    "name": "role.js",
+    "qualifier": "FIL",
+    "path": "sample_13/_helpers/role.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/app/models/role.model.js",
+    "name": "role.model.js",
+    "qualifier": "FIL",
+    "path": "sample_07/app/models/role.model.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/routes/router.js",
+    "name": "router.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/routes/router.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_29/routes.js",
+    "name": "routes.js",
+    "qualifier": "FIL",
+    "path": "sample_29/routes.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_19/app/routes.py",
+    "name": "routes.py",
+    "qualifier": "FIL",
+    "path": "sample_19/app/routes.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/weather_data_flaskapi/business/security.py",
+    "name": "security.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/weather_data_flaskapi/business/security.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/weather_data_flaskapi/serializers.py",
+    "name": "serializers.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/weather_data_flaskapi/serializers.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/api/blog/serializers.py",
+    "name": "serializers.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/api/blog/serializers.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/server.js",
+    "name": "server.js",
+    "qualifier": "FIL",
+    "path": "sample_23/server.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_13/server.js",
+    "name": "server.js",
+    "qualifier": "FIL",
+    "path": "sample_13/server.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/server.js",
+    "name": "server.js",
+    "qualifier": "FIL",
+    "path": "sample_07/server.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_06/server.js",
+    "name": "server.js",
+    "qualifier": "FIL",
+    "path": "sample_06/server.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_14/src/server.js",
+    "name": "server.js",
+    "qualifier": "FIL",
+    "path": "sample_14/src/server.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_21/_private/server_sql.js",
+    "name": "server_sql.js",
+    "qualifier": "FIL",
+    "path": "sample_21/_private/server_sql.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_12/rest_api_demo/settings.py",
+    "name": "settings.py",
+    "qualifier": "FIL",
+    "path": "sample_12/rest_api_demo/settings.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/routes/examples/standalone.js",
+    "name": "standalone.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/routes/examples/standalone.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/models/tags.js",
+    "name": "tags.js",
+    "qualifier": "FIL",
+    "path": "sample_15/models/tags.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/tags/tagsHandler.js",
+    "name": "tagsHandler.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/tags/tagsHandler.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/models/tasklists.js",
+    "name": "tasklists.js",
+    "qualifier": "FIL",
+    "path": "sample_15/models/tasklists.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/taskLists/taskListsHandler.js",
+    "name": "taskListsHandler.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/taskLists/taskListsHandler.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/models/tasks.js",
+    "name": "tasks.js",
+    "qualifier": "FIL",
+    "path": "sample_15/models/tasks.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/tasks/tasksHandler.js",
+    "name": "tasksHandler.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/tasks/tasksHandler.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/models/tasktags.js",
+    "name": "tasktags.js",
+    "qualifier": "FIL",
+    "path": "sample_15/models/tasktags.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_29/models/todo.js",
+    "name": "todo.js",
+    "qualifier": "FIL",
+    "path": "sample_29/models/todo.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/tags/updateCountTag.js",
+    "name": "updateCountTag.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/tags/updateCountTag.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/tags/updateOneTag.js",
+    "name": "updateOneTag.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/tags/updateOneTag.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/tasks/updateOneTask.js",
+    "name": "updateOneTask.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/tasks/updateOneTask.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/taskLists/updateOneTaskList.js",
+    "name": "updateOneTaskList.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/taskLists/updateOneTaskList.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/taskLists/updateOneTaskList.js",
+    "name": "updateOneTaskList.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/taskLists/updateOneTaskList.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/tags/updateTag.js",
+    "name": "updateTag.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/tags/updateTag.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/controllers/tasks/updateTask.js",
+    "name": "updateTask.js",
+    "qualifier": "FIL",
+    "path": "sample_15/controllers/tasks/updateTask.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/DAOs/taskTags/updateTaskTag.js",
+    "name": "updateTaskTag.js",
+    "qualifier": "FIL",
+    "path": "sample_15/DAOs/taskTags/updateTaskTag.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_22/models/upload.js",
+    "name": "upload.js",
+    "qualifier": "FIL",
+    "path": "sample_22/models/upload.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_22/routes/upload.js",
+    "name": "upload.js",
+    "qualifier": "FIL",
+    "path": "sample_22/routes/upload.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/controllers/user.controller.js",
+    "name": "user.controller.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/controllers/user.controller.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/app/controllers/user.controller.js",
+    "name": "user.controller.js",
+    "qualifier": "FIL",
+    "path": "sample_07/app/controllers/user.controller.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_08/routes/user.js",
+    "name": "user.js",
+    "qualifier": "FIL",
+    "path": "sample_08/routes/user.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_13/users/user.model.js",
+    "name": "user.model.js",
+    "qualifier": "FIL",
+    "path": "sample_13/users/user.model.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/app/models/user.model.js",
+    "name": "user.model.js",
+    "qualifier": "FIL",
+    "path": "sample_07/app/models/user.model.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_06/users/user.model.js",
+    "name": "user.model.js",
+    "qualifier": "FIL",
+    "path": "sample_06/users/user.model.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_05/src/routes/user.routes.js",
+    "name": "user.routes.js",
+    "qualifier": "FIL",
+    "path": "sample_05/src/routes/user.routes.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/app/routes/user.routes.js",
+    "name": "user.routes.js",
+    "qualifier": "FIL",
+    "path": "sample_07/app/routes/user.routes.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_13/users/user.service.js",
+    "name": "user.service.js",
+    "qualifier": "FIL",
+    "path": "sample_13/users/user.service.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_06/users/user.service.js",
+    "name": "user.service.js",
+    "qualifier": "FIL",
+    "path": "sample_06/users/user.service.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_13/users/users.controller.js",
+    "name": "users.controller.js",
+    "qualifier": "FIL",
+    "path": "sample_13/users/users.controller.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_06/users/users.controller.js",
+    "name": "users.controller.js",
+    "qualifier": "FIL",
+    "path": "sample_06/users/users.controller.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_27/api/models/users.py",
+    "name": "users.py",
+    "qualifier": "FIL",
+    "path": "sample_27/api/models/users.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_15/middlewares/uuidValidateParam.js",
+    "name": "uuidValidateParam.js",
+    "qualifier": "FIL",
+    "path": "sample_15/middlewares/uuidValidateParam.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/middleware/validateRequest.js",
+    "name": "validateRequest.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/middleware/validateRequest.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_23/app/utilities/validatorFormat.js",
+    "name": "validatorFormat.js",
+    "qualifier": "FIL",
+    "path": "sample_23/app/utilities/validatorFormat.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_07/app/middlewares/verifySignUp.js",
+    "name": "verifySignUp.js",
+    "qualifier": "FIL",
+    "path": "sample_07/app/middlewares/verifySignUp.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261011-human:sample_02/project/server/auth/views.py",
+    "name": "views.py",
+    "qualifier": "FIL",
+    "path": "sample_02/project/server/auth/views.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_27/api/students/views.py",
+    "name": "views.py",
+    "qualifier": "FIL",
+    "path": "sample_27/api/students/views.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_27/api/course/views.py",
+    "name": "views.py",
+    "qualifier": "FIL",
+    "path": "sample_27/api/course/views.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_27/api/auth/views.py",
+    "name": "views.py",
+    "qualifier": "FIL",
+    "path": "sample_27/api/auth/views.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_04/app/views.py",
+    "name": "views.py",
+    "qualifier": "FIL",
+    "path": "sample_04/app/views.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261011-human:sample_25/api/weather_data_flaskapi/business/weather_data.py",
+    "name": "weather_data.py",
+    "qualifier": "FIL",
+    "path": "sample_25/api/weather_data_flaskapi/business/weather_data.py",
+    "language": "py"
+  }
+]

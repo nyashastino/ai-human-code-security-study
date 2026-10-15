@@ -1,0 +1,212 @@
+[
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_01.py",
+    "name": "sample_01.py",
+    "qualifier": "FIL",
+    "path": "sample_01.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_02.py",
+    "name": "sample_02.py",
+    "qualifier": "FIL",
+    "path": "sample_02.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_03.py",
+    "name": "sample_03.py",
+    "qualifier": "FIL",
+    "path": "sample_03.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_04.py",
+    "name": "sample_04.py",
+    "qualifier": "FIL",
+    "path": "sample_04.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_05.js",
+    "name": "sample_05.js",
+    "qualifier": "FIL",
+    "path": "sample_05.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_06.js",
+    "name": "sample_06.js",
+    "qualifier": "FIL",
+    "path": "sample_06.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_07.js",
+    "name": "sample_07.js",
+    "qualifier": "FIL",
+    "path": "sample_07.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_08.js",
+    "name": "sample_08.js",
+    "qualifier": "FIL",
+    "path": "sample_08.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_09.py",
+    "name": "sample_09.py",
+    "qualifier": "FIL",
+    "path": "sample_09.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_10.py",
+    "name": "sample_10.py",
+    "qualifier": "FIL",
+    "path": "sample_10.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_11.py",
+    "name": "sample_11.py",
+    "qualifier": "FIL",
+    "path": "sample_11.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_12.py",
+    "name": "sample_12.py",
+    "qualifier": "FIL",
+    "path": "sample_12.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_13.js",
+    "name": "sample_13.js",
+    "qualifier": "FIL",
+    "path": "sample_13.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_14.js",
+    "name": "sample_14.js",
+    "qualifier": "FIL",
+    "path": "sample_14.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_15.js",
+    "name": "sample_15.js",
+    "qualifier": "FIL",
+    "path": "sample_15.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_16.js",
+    "name": "sample_16.js",
+    "qualifier": "FIL",
+    "path": "sample_16.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_17.py",
+    "name": "sample_17.py",
+    "qualifier": "FIL",
+    "path": "sample_17.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_18.py",
+    "name": "sample_18.py",
+    "qualifier": "FIL",
+    "path": "sample_18.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_19.py",
+    "name": "sample_19.py",
+    "qualifier": "FIL",
+    "path": "sample_19.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_20.py",
+    "name": "sample_20.py",
+    "qualifier": "FIL",
+    "path": "sample_20.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_21.js",
+    "name": "sample_21.js",
+    "qualifier": "FIL",
+    "path": "sample_21.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_22.js",
+    "name": "sample_22.js",
+    "qualifier": "FIL",
+    "path": "sample_22.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_23.js",
+    "name": "sample_23.js",
+    "qualifier": "FIL",
+    "path": "sample_23.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_24.py",
+    "name": "sample_24.py",
+    "qualifier": "FIL",
+    "path": "sample_24.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_25.py",
+    "name": "sample_25.py",
+    "qualifier": "FIL",
+    "path": "sample_25.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_26.py",
+    "name": "sample_26.py",
+    "qualifier": "FIL",
+    "path": "sample_26.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_27.py",
+    "name": "sample_27.py",
+    "qualifier": "FIL",
+    "path": "sample_27.py",
+    "language": "py"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_28.js",
+    "name": "sample_28.js",
+    "qualifier": "FIL",
+    "path": "sample_28.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_29.js",
+    "name": "sample_29.js",
+    "qualifier": "FIL",
+    "path": "sample_29.js",
+    "language": "js"
+  },
+  {
+    "key": "comparison-20261012-ai-syntax-corrected:sample_30.js",
+    "name": "sample_30.js",
+    "qualifier": "FIL",
+    "path": "sample_30.js",
+    "language": "js"
+  }
+]
